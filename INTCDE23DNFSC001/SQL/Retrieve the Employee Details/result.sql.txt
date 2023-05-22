@@ -1,0 +1,11 @@
+CREATE PROCEDURE RetrieveEmpDetails
+    @EmpNo char(6), 
+    @Name varchar(15) OUTPUT,
+    @Job char(9) OUTPUT,
+    @Sal decimal(9,2) OUTPUT
+AS BEGIN
+  SELECT @Name = lastname, @Job = job, @Sal = salary 
+  FROM Employee 
+  WHERE empno = @EmpNo
+END
+GO

@@ -1,0 +1,33 @@
+using System;
+
+public class Program      //DO NOT change the class name
+{
+    //implement code here
+    public static void Main(String[] args){
+        
+        Console.WriteLine("Enter name");
+        String name = Console.ReadLine();
+        
+        Console.WriteLine("Enter age(completed years and months)");
+        String age = Console.ReadLine();
+        
+        Console.WriteLine("Enter gender('M' for Male and 'F' for Female)");
+        String gender = Console.ReadLine();
+        
+        Console.WriteLine("Enter city");
+        String city = Console.ReadLine();
+        
+        Console.WriteLine("Enter mobile number");
+        String mobile = Console.ReadLine();
+        
+        Console.WriteLine("Enter pincode");
+        String pin = Console.ReadLine();
+        
+        Console.WriteLine("Name:\t"+name);
+        Console.WriteLine("Age:\t"+age);
+        Console.WriteLine("Gender:\t"+gender);
+        Console.WriteLine("City:\t"+city);
+        Console.WriteLine("Mobile:\t"+mobile);
+        Console.WriteLine("PinCode:\t"+pin);
+    }
+}

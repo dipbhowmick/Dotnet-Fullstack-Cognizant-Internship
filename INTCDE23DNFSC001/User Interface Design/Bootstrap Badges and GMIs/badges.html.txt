@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!-- DO NOT CHANGE ANY THING UNDER HEAD SECTION -->
+    
+    <title>Bootstrap badges Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        .bcontent {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h6>Navigate Here</h6>
+        <hr />
+        <nav class="navbar navbar-light bg-light">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">  
+                    
+                       <!-- WRITE YOUR CODE HERE FOR CREATING THE BADGES WITH  GOOGLE MATERIAL ICONS ACCORDING TO GIVEN SPECIFICATIONS -->
+                       <!-- HINT :- Use bootstrap badges classes and google material icons for messages --> 
+                       
+                       
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"> 
+                    
+                       <!-- WRITE YOUR CODE HERE FOR CREATING THE BADGES WITH  GOOGLE MATERIAL ICONS ACCORDING TO GIVEN SPECIFICATIONS -->
+                       <!-- HINT :- Use bootstrap badges classes and google material icons for notifications --> 
+                       
+                       
+                    </a>
+                </li>
+                <li class="nav-item">
+                      <a class="nav-link" href="#"> 
+                      
+                        <!-- WRITE YOUR CODE HERE FOR CREATING THE BADGES WITH  GOOGLE MATERIAL ICONS ACCORDING TO GIVEN SPECIFICATIONS -->
+                        <!-- HINT :- Use bootstrap badges classes and google material icons for warnings --> 
+                      
+                      
+                      </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>

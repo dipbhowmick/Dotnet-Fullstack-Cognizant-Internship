@@ -1,0 +1,22 @@
+import React, { Component } from 'react';
+import './stock.css';
+class Stock extends Component {
+  
+   //IMPLEMENT YOUR CODE HERE. "stockSymbol" , "marketPrice" and "options" are sent through one props data (i.e) as JSON
+   render(){
+    return (
+        <div>
+            <h1>Stock Securities</h1>
+            <h3>Stock Symbol</h3>
+            {this.props.stocks.stockSymbol}
+            <h3>Market Price</h3>
+            {this.props.stocks.marketPrice}
+            <h3>Options</h3>
+            {this.props.stocks.options.map((o, i) => <h5 key={i}>{o}</h5> )}
+        </div>
+    );
+   }
+}
+
+
+export default Stock;

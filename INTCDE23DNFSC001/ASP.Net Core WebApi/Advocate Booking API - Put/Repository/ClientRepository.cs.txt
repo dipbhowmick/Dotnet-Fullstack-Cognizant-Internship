@@ -1,0 +1,21 @@
+using PutWebApi.Interface;
+using PutWebApi.Models;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace PutWebApi.Repository
+{
+    public class ClientRepository : IClient
+    {
+        List<Client> lsClients = StaticData.lsClients;
+
+        bool IClient.UpdateClientMobile(int caseid, string phoneno)
+        {
+            if (caseid == 0 || phoneno == "") return false;
+            Client c = lsClients.FirstOrDefault(x => x.CaseId == caseid);
+            if(c == null) return false;
+            c.PhoneNumber = phoneno;
+            return true;
+        }
+    }
+}

@@ -1,0 +1,5 @@
+CREATE PROCEDURE EmployeesDept @DeptNo char(3)
+AS BEGIN
+  select lastname as Name from Employee where workdept = @DeptNo
+END
+GO

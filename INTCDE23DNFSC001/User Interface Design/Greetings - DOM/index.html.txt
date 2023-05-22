@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Elite Coaching Center</title>
+    <script src="script.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+    <h1>Elite Coaching Center</h1>
+    <table border="1">
+        <tbody>
+            <tr>
+                <td>Student Name</td>
+                <td><input type="text" name="sname" id="sname" required /></td>
+            </tr>
+            <tr>
+                <td>Course</td>
+                <td>
+                    <select name="course" id="course" required>
+                        <option value="Python">Python</option>
+                        <option value="Java">Java</option>
+                        <option value="Oracle">Oracle</option>
+                    </select>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <input type="button" id="submit" value="Register" onclick="display();">
+    <p> <div id="greet"></div> </p>
+</body>
+</html>

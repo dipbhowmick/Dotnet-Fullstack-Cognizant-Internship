@@ -1,0 +1,7 @@
+namespace PutWebApi.Interface
+{
+    public interface IClient
+    {
+        bool UpdateClientMobile(int caseid, string phoneno);
+    }
+}

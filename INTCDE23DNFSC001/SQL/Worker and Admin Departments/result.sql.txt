@@ -1,0 +1,5 @@
+select distinct d.deptname as 'Worker Department', d.location as 'Location', m.deptname as 'Manager Department' 
+from department d, department m 
+where d.admrdept = m.deptno and d.deptname != m.deptname 
+order by 'Worker Department'
+GO

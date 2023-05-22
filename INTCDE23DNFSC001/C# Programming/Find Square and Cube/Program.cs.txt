@@ -1,0 +1,31 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Methods2               //DO NOT Change namespace name
+{
+    public class Program                //DO NOT Change class 'Program' name
+    {
+        public static void Main(string[] args)        //DO NOT Change 'Main' method Signature
+        {
+            //Implement your code here
+            Console.WriteLine("Enter a Number");
+            double n = double.Parse(Console.ReadLine());
+            
+            Console.Write("Square of " + n + " is " + FindSquare(n));
+            Console.Write("Cube of " + n + " is " + FindSquare(n));
+        }
+
+      //Implement methods here. Keep the method 'public' and 'static'
+      
+        public static double FindSquare(double n){
+            return n*n;
+        }
+        
+        public static double FindCube(double n){
+            return n*n*n;
+        }
+    }
+}

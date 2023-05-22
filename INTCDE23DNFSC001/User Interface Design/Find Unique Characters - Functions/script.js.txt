@@ -1,0 +1,19 @@
+function modifyString(str)
+{
+//fill code here
+return str.toLowerCase().split(" ").join("");
+}
+
+function uniqueCharacters(str)
+{
+//fill code here
+ans = ""
+str = modifyString(str);
+for (var i in str) {
+    if(!ans.includes(str[i]))
+    ans += str[i];
+}
+return ans;
+}  
+
+//console.log(uniqueCharacters("Hi I am Dip."));

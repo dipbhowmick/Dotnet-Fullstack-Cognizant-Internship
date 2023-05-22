@@ -1,0 +1,27 @@
+using System;
+
+public interface IOpenable {
+    String OpenSesame();
+}
+
+public class TreasureBox : IOpenable {
+    public String OpenSesame(){
+        return "Congratulations , Here is your lucky win";
+    }
+}
+
+public class Parachute : IOpenable {
+    public String OpenSesame(){
+        return "Have a thrilling experience flying in air";
+    }
+}
+
+public class Program {
+    public static void Main(String[] args){
+        Console.WriteLine("Enter the letter found in the paper");
+        String x = Console.ReadLine();
+        
+        if(x == "T") Console.WriteLine((new TreasureBox()).OpenSesame());
+        else Console.WriteLine((new Parachute()).OpenSesame());
+    }
+}

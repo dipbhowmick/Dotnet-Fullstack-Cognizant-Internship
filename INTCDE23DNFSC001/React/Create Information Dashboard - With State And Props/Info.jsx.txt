@@ -1,0 +1,91 @@
+import React, { Component } from 'react';
+import './style.css';
+
+
+
+class Info extends Component {
+	//IMPLEMENT YOUR CODE HERE.
+	constructor(props) {
+        super(props);
+        this.state = props.client;
+    }
+    
+    render()
+    {
+        return(
+            <div>
+                <h1>Share Market Investments</h1>
+                <h2>Hello Client!</h2>
+                <HealthCare client={this.state} />
+                <TeleCom client={this.state} />
+            </div>
+        );
+    }   
+}
+class HealthCare extends React.Component{
+	//IMPLEMENT YOUR CODE HERE. Declare state variable here
+	
+	constructor(props) {
+        super(props);
+        this.state = props.client;
+    }
+    
+    render(){
+        return (
+            <div>
+            <h2>Client's Investment in HealthCare</h2>
+            <table border="1">
+                <tr>
+                    <th>Stock Notation</th>
+                    <th>Quantity</th>
+                    <th>Stock Value</th>
+                    <th>Total Value</th>
+                </tr>
+                <tr>
+                    <td>{this.state.hc_stockNotation}</td>
+                    <td>{this.state.hc_quantity}</td>
+                    <td>{this.state.hc_stockValue}</td>
+                    <td>{this.state.hc_quantity * this.state.hc_stockValue}</td>
+                </tr>
+            </table>
+            </div>
+        );
+    }
+
+}  
+
+
+class TeleCom extends React.Component{
+	//IMPLEMENT YOUR CODE HERE. Declare state variable here
+	constructor(props) {
+        super(props);
+        this.state = props.client;
+    }
+    
+
+    render(){
+        return (
+            <div>
+            <h2>Client's Investment in TeleCom</h2>
+            <table border="1">
+                <tr>
+                    <th>Stock Notation</th>
+                    <th>Quantity</th>
+                    <th>Stock Value</th>
+                    <th>Total Value</th>
+                </tr>
+                <tr>
+                    <td>{this.state.tc_stockNotation}</td>
+                    <td>{this.state.tc_quantity}</td>
+                    <td>{this.state.tc_stockValue}</td>
+                    <td>{this.state.tc_quantity * this.state.tc_stockValue}</td>
+                </tr>
+            </table>
+            </div>
+        );
+    }
+}  
+ 
+export {TeleCom}
+export {HealthCare}
+export default Info;

@@ -1,0 +1,4 @@
+<h2>@ViewBag.Business</h2>
+<h3>@ViewBag.Type</h3>
+<h3>@ViewBag.Founded</h3>
+<h3>@ViewBag.Website</h3>

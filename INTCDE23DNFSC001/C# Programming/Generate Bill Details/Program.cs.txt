@@ -1,0 +1,37 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ProgFundamentals2  //DO NOT change the namespace name
+{
+    public class Program      //DO NOT change the class name
+    {
+        public static void Main(string[] args)     //DO NOT change the 'Main' method signature
+        {
+            //Implement the code here
+            Console.WriteLine("Enter the number of pizzas bought : ");
+            int pizzas = int.Parse(Console.ReadLine())  * 200;
+            
+            Console.WriteLine("Enter the number of puffs bought : ");
+            int puffs = int.Parse(Console.ReadLine()) * 40;
+            
+            Console.WriteLine("Enter the number of pepsi bought : ");
+            int pepsi = int.Parse(Console.ReadLine()) * 120;
+            
+            Console.Write("Bill Details\n\n");
+            
+            Console.WriteLine("Cost of Pizzas :" + pizzas);
+            Console.WriteLine("Cost of Puffs :" + puffs);
+            Console.WriteLine("Cost of Pepsis :" + pepsi);
+            
+            int total = pizzas + puffs + pepsi;
+            float gst = total * 0.12f;
+            float cess = total * 0.05f;
+            Console.WriteLine("GST 12% :" + gst);
+            Console.WriteLine("CESS 5% :" + cess);
+            Console.WriteLine("Total Price :" + total);
+        }
+    }
+}

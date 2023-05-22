@@ -1,0 +1,27 @@
+using System;
+
+public class Program      //DO NOT change the class name
+{
+    //implement code here
+    public static void Main(String[] args){
+        
+        Console.WriteLine("Enter a string");
+        String sentence = Console.ReadLine();
+        
+        String[] words = sentence.Split();
+        Array.Reverse(words);
+        String reverse = String.Join(" ", words);
+        
+        // String reverse = "", word = "";
+        // for(int i = 0; i < sentence.Length; i++){
+        //     if(sentence[i] == ' ') {
+        //         reverse = word + " " + reverse;
+        //         word = "";
+        //     }
+        //     else word += sentence[i];
+        // }
+        // if(word != "") reverse = word + " " + reverse;
+        
+        Console.WriteLine(reverse);
+    }
+}

@@ -1,0 +1,3 @@
+@{
+    <p>@ViewBag.Name</p>
+}

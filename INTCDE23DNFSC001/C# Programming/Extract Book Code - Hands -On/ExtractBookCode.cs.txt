@@ -1,0 +1,51 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ExtractBookCode      //Do not change the namespace name
+{
+    public class Program      //Do not change the class name
+    {
+        public static void Main(String[] arg)         //Do not change the method signature
+        {
+            //Implement code here
+            Console.WriteLine("Enter the book code of length 18");
+            string code = Console.ReadLine();
+            
+            if(code.Length != 18) {
+                Console.WriteLine("Invalid Book Code");
+                return;
+            }
+            
+            string dept = code.Substring(0, 3);
+            int year = int.Parse(code.Substring(3, 4));
+            string pages = code.Substring(7, 5);
+            string id = code.Substring(12, 6);
+            if(dept != "101" && dept != "102" && dept != "103"){
+                Console.WriteLine("Invalid Department Code");
+                return;
+            }
+            if(year < 1900 || 2020 < year){
+                Console.WriteLine("Invalid Year");
+                return;
+            }
+            
+            if(pages == "00000" || !pages.All(Char.IsNumber)){
+                Console.WriteLine("Invalid Page Numbers");
+                return;
+            }
+            
+            if(!Char.IsLetter(id[0]) || !id.Substring(1).All(Char.IsNumber)){
+                Console.WriteLine("Invalid Book ID");
+                return;
+            }
+            
+            Console.WriteLine("Department Code\t: " + dept);
+            Console.WriteLine("Year of Publication\t: " + year);
+            Console.WriteLine("Number of Pages\t: " + pages);
+            Console.WriteLine("Book ID\t: " + id);
+        }
+    }
+}

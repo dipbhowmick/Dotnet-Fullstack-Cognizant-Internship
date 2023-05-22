@@ -1,0 +1,56 @@
+using System;
+using System.IO;
+
+public class Person
+{
+    //Fill code here
+    private string firstName, lastName;
+    private DateTime dob;
+    
+    public string FirstName {
+        get { return firstName; }
+        set { firstName = value; }
+    }
+    public string LastName {
+        get { return lastName; }
+        set { lastName = value; }
+    }
+    public DateTime Dob {
+        get { return dob; }
+        set { dob = value; }
+    }
+    public String Adult {
+        get { if(GetAge(dob) < 18 ) return "Child"; return "Adult"; }
+    }
+    public void DisplayDetails(){
+        Console.WriteLine("First Name: " + firstName);
+        Console.WriteLine("Last Name: " + lastName);
+        Console.WriteLine("Age: " + GetAge(dob));
+        Console.WriteLine(Adult);
+    }
+    public int GetAge(DateTime dob){
+        DateTime d = new DateTime(2021,7,16);
+        // return (DateTime.Now.Year - dob.Year) - (DateTime.Now.DayOfYear < dob.DayOfYear ? 1 : 0);
+        return (d.Year - dob.Year) - (d.DayOfYear < dob.DayOfYear ? 1 : 0);
+    }
+}
+
+public class Progarm
+{
+    public static void Main(String[] args)
+    {
+        //Fill code here
+        Person p = new Person();
+        
+        Console.WriteLine("Enter first name");
+        p.FirstName = Console.ReadLine();
+        
+        Console.WriteLine("Enter last name");
+        p.LastName = Console.ReadLine();
+        
+        Console.WriteLine("Enter date of birth in yyyy/mm/dd format");
+        p.Dob = DateTime.ParseExact(Console.ReadLine(), "yyyy/MM/dd", null);
+        
+        p.DisplayDetails();
+    }
+}

@@ -1,0 +1,30 @@
+class Employee {
+//fill code here
+    constructor(name, designation, year_of_experience){
+        this.name = name;
+        this.designation = designation; 
+        this.year_of_experience = year_of_experience;
+    }
+}
+
+function createEmployee(name, designation, year_of_experience)
+{
+//fill code here
+return new Employee(name, designation, year_of_experience);
+}
+
+function validateObject(employee)
+{
+//fill code here
+return employee instanceof Employee;
+}
+
+function displayEmployee(name, designation, year_of_experience){
+    var employee = createEmployee(name, designation, year_of_experience);
+    if(validateObject(employee)){
+        var joining_year = parseInt(new Date().getFullYear()) - parseInt(employee.year_of_experience);
+        return `${employee.name} is serving the position of ${employee.designation} since ${joining_year}`;
+    }
+}
+
+//console.log(displayEmployee("Jerold", "Manager", 15));

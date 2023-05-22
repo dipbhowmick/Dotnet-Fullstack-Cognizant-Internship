@@ -1,0 +1,12 @@
+//WRITE YOUR jQUERY CODE HERE
+$(function(){
+    $("#each_ex").click(function(){
+        $(".men_ex ul li a").css("background-color", "red");
+        var html = "";
+        $(".men_ex ul li a").text(function(i, t){
+            html += t + "<br>";
+            return t;
+        });
+        $("#msg_ex").html(html);
+    });
+});

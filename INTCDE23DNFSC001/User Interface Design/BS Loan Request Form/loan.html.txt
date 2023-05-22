@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!-- DO NOT CHANGE ANY THING UNDER HEAD SECTION -->
+  <title>Bootstrap Forms</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    
+	<script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<div class="container">
+  <h2>Loan Request Form</h2>
+  <form action="">
+      <!-- Fill the appropriate class name in the div tag-->
+	<div class="">
+	    
+	<label for="user">Name:</label>
+	<!-- Fill your code for user input with appropriate class -->
+	
+	
+	</div>
+	
+	 <!-- Fill the appropriate class name in the div -->
+	<div class="">
+	    
+	<label for="dob">Date of Birth:</label>
+	<!-- Fill your code for dob input -->
+	
+	
+    <script>
+        $('#dob').datepicker({
+            uiLibrary: 'bootstrap'
+        });
+    </script>
+	</div>
+	
+	
+	<!-- Fill the appropriate class name for form grouping in the div tag -->
+	<div class="">
+	    
+ <label for="jobType">Job Type:</label>
+	<!-- Fill the appropriate class name for form check -->
+	<div class="">
+	 
+	    
+      <!-- Fill your code for Salaried jobType input with appropriate class and type -->
+  
+  
+      <label class="form-check-label"> Salaried </label>
+   </div>
+
+  <!-- Fill the appropriate class name for form check -->
+  <div class="">
+  
+      <!-- Fill your code for Self-Employed jobType input with appropriate class and type -->
+    
+      <label class="form-check-label">Self-Employed </label>
+  </div>
+  </div>
+	
+    <!-- Fill the appropriate class name for form group in the div tag -->
+    <div class="">
+
+    <label for="property">Property:</label>
+	
+    <!-- Fill the appropriate class name for form check in the div tag -->
+	<div class="">
+	    
+        <!-- Fill your code for House Property input with appropriate class and type -->
+      
+    
+    <label class="form-check-label">House</label>
+    </div>
+
+    <!-- Fill the appropriate class name for form check in the div tag-->
+    <div class="">
+  
+        <!-- Fill your code for Agriculture Form Property input with appropriate class and type -->
+    
+        <label class="form-check-label"> Agriculture Form </label>
+    </div>
+
+    <!-- Fill the appropriate class name for form check in the div tag-->
+	<div class="">
+    
+    
+       <!-- Fill your code for Car Property input with appropriate class and type -->
+    
+       <label class="form-check-label"> Car </label>
+    </div>
+
+    <!-- Fill the appropriate class name for form check in the div tag -->
+    <div class="">
+  
+           <!-- Fill your code for Bike Property input with appropriate class and type -->
+    
+           <label class="form-check-label">Bike</label>
+    </div>
+  </div>
+  
+  <!-- Fill your code for Apply button type as submit with appropriate class for primary button -->
+    
+    
+  </form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+       <title>Validate Pan Card</title> 
+    </head>
+    <body>
+        <input type="text" name="pan" id="txt" >
+        <button type="button" id="btnSubmit" value="Submit" onclick="ValidatePAN()"></button>
+        
+        <p><div id="result"></div></p>
+        <script src="script.js" type="text/javascript" charset="utf-8"></script>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- DO NOT CHANGE ANY THING UNDER HEAD SECTION -->
+  <title>Bootstrap Cards</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+ 
+   <!-- WRITE YOUR CODE HERE FOR CREATING THE QUOTE CARD ACCORDING TO GIVEN SPECIFICATIONS  -->
+   <!-- HINT :- Use bootstrap card classes to create card,card header and card body -->
+    
+    
+     <blockquote class="blockquote mb-0">
+         
+          <!-- WRITE YOUR CODE HERE FOR CREATING THE CARD TEXT AND FOOTER ACCORDING TO GIVEN SPECIFICATIONS  -->
+          <!-- HINT :- Use appropriate Bootstrap class for card text and block quote footer -->
+         
+      
+    </blockquote>
+  
+
+</body>
+</html>

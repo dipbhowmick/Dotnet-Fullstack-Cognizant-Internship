@@ -1,0 +1,31 @@
+-- select * from status
+
+-- select sum(amount_of_claim)
+-- from claims 
+-- group by customer_policy_id
+
+CREATE TRIGGER claim_audits ON claims
+FOR INSERT
+AS
+	declare @name varchar(25);
+	declare @amount varchar(25);
+	declare @action varchar(200);
+
+    select @name = c.first_name
+    from inserted i, customer_policy p, customer c
+    where i.customer_policy_id = p.id and p.customer_id = c.id;
+    
+    select @amount = cast(sum(c.amount_of_claim) as varchar(25))
+    from claims c, inserted i 
+    where c.customer_policy_id = i.customer_policy_id;
+    
+-- 	select @amount = cast(sum(i.amount_of_claim) as varchar(25)) 
+-- 	from claims i, customer_policy p, customer c
+-- 	where i.customer_policy_id = p.id and p.customer_id = c.id and i.status_id = 101
+-- 	group by c.id
+-- 	having c.id = @id;
+	
+	set @action = 'Updated customer claimed amount';
+	
+	insert into claim_audit values(@name, @amount, @action);
+GO

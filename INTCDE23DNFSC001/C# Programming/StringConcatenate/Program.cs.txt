@@ -1,0 +1,16 @@
+using System;
+
+public class Program      //DO NOT change the class name
+{
+    //implement code here
+    public static void Main(String[] args){
+        
+        Console.WriteLine("Enter first name");
+        String fname = Console.ReadLine();
+        
+        Console.WriteLine("Enter last name");
+        String lname = Console.ReadLine();
+        
+        Console.WriteLine("Full name : " + fname + " " + lname);
+    }
+}

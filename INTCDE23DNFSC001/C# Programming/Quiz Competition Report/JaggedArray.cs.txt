@@ -1,0 +1,45 @@
+using System;
+
+
+namespace JaggedArray      //DO NOT Change the namespace name
+{
+    public class Program    //DO NOT Change the class name
+    {
+        public static void Main(string[] args)    //DO NOT change the method signature
+        {
+	        //Implement code here
+	        // Get input from the user and construct a jagged array 
+	        Console.WriteLine("Enter the number of teams:");
+	        int t = int.Parse(Console.ReadLine());
+	        
+	        int[][] array = new int[t][];
+	        
+	        for(int i = 0; i < t; i++){
+	            Console.WriteLine("No.of attempts for team {0}:", i+1);
+	            int n = int.Parse(Console.ReadLine());
+	            array[i] = new int[n];
+	        }
+	        
+	        for(int i = 0; i < t; i++)
+	            for(int j = 0; j < array[i].Length; j++)
+	                array[i][j] = int.Parse(Console.ReadLine());
+	                
+	       Console.WriteLine(GetTotalScore(array) + "\b\b  ");
+	   }
+        
+        public static String GetTotalScore(int[][] array)        //DO NOT change the method signature
+        {
+            //Implement code here 
+            //Method to calculate total score for each team and return a string as specified in the sample output.
+            String tscore = "";
+            for(int i = 0; i < array.Length; i++){
+                int score = 0; 
+                for(int j = 0; j < array[i].Length; j++)
+	                score += array[i][j];
+	            tscore += $"Team {i+1} Total Score is {score} . ";
+            }
+	        return tscore;
+        }
+
+    }
+}

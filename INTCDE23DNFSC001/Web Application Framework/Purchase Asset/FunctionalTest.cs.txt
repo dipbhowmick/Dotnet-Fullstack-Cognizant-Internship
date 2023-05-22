@@ -1,0 +1,13 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+using NUnit.Framework;
+
+namespace AssetProject
+{
+    //Add required NUnit test attribute
+    public class FunctionalTest
+    {
+        //Add required test methods
+    }
+}

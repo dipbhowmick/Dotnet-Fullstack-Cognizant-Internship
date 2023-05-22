@@ -1,0 +1,56 @@
+// Please do not make any changes in the given template
+import React, { Component } from 'react';
+import './Styles.css';
+
+function formatDate(date = new Date()) {
+  const year = date.toLocaleString('default', {year: 'numeric'});
+  const month = date.toLocaleString('default', {month: 'numeric'});
+  const day = date.toLocaleString('default', {day: 'numeric'});
+
+  return [day,month,year].join('-');
+}
+
+class ShareMarket extends Component {
+    // IMPLEMENT YOUR CODE HERE
+    render(){
+        return (
+            <div>
+                <h3>Share Market Statistics</h3>
+                <h6>Commodity Report Dated:{formatDate()}</h6>
+                <HealthCareDB />
+            </div>
+        );
+    }
+  
+}
+
+class HealthCareDB extends Component {
+  
+  // IMPLEMENT YOUR CODE HERE
+  render(){
+        return(
+            <div>
+                <table border="2">
+                    <tr>
+                        <td>Commodity</td>
+                        <td>Price</td>
+                        <td>Change</td>
+                        <td>Change%</td>
+                    </tr>
+                    <tr>
+                        <td>Health Care</td>
+                        <td>2500</td>
+                        <td>100</td>
+                        <td>2</td>
+                    </tr>
+                </table>
+            </div>
+        );
+    }
+  
+}
+
+
+export {HealthCareDB};
+export default ShareMarket;
+

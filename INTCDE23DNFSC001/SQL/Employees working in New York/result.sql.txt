@@ -1,0 +1,8 @@
+-- select * from employee
+-- select * from department
+
+select e.firstname, e.lastname, e.salary
+from employee e, department d
+where e.workdept = d.deptno and d.location = 'New York'
+order by e.firstname
+go

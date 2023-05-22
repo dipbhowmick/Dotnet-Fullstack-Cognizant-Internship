@@ -1,0 +1,11 @@
+$(function(){
+   $("#btn").on("click", function(){
+      var text = $("#txt1").val();
+      if(text === text.toLowerCase()){
+      $("#txt1").val(text.toUpperCase());
+      }
+      else{
+      $("#txt1").val(text.toLowerCase());
+      }
+   });
+});

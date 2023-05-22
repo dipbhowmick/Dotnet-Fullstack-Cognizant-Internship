@@ -1,0 +1,23 @@
+using GetWebApi.Interface;
+using GetWebApi.Models;
+using System.Collections.Generic;
+using System.Linq;
+using System;
+
+namespace GetWebApi.Repository
+{
+    public class ClientRepository : IClient
+    {
+        List<Client> lsClients = StaticData.lsClients;
+
+        List<Client> IClient.GetAllCases()
+        {
+            return lsClients;
+        }
+
+        Client IClient.GetClientByCaseId(int id)
+        {
+            return lsClients.FirstOrDefault(x => x.CaseId == id);
+        }
+    }
+}

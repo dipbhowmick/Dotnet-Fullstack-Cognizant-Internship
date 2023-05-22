@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Bootstrap 4 Nested Rows and Columns</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+	/* Some custom styles to beautify this example */
+    .head-content{
+		min-height: 100px;
+        background: #ccccff;
+    }
+    .main-content{
+        min-height: 170px;
+        margin-bottom: 10px;
+        background: #b366ff;
+    }
+  .sidebar-content{
+        min-height: 80px;
+        margin-bottom: 10px;
+        background: #ffe6cc;
+    }
+  
+  
+</style>
+</head>
+<body>
+
+         <!-- WRITE YOUR CODE HERE -->
+ 
+</body>
+</html>

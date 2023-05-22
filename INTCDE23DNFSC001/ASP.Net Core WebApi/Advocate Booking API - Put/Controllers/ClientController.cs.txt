@@ -1,0 +1,27 @@
+using Microsoft.AspNetCore.Mvc;
+using PutWebApi.Interface;
+using PutWebApi.Models;
+using PutWebApi.Repository;
+using System.Threading.Tasks;
+using System;
+
+namespace PutWebApi.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class ClientController : Controller
+    {
+        private IClient clients = new ClientRepository();
+
+        // Implement your code here
+        [HttpPut("~/api/[controller]/UpdateMobile/{id}")]
+        [Consumes(contentType: "application/json")]
+        public async Task<IActionResult> UpdateMobile(int id, [FromBody] string phoneno)
+        {
+            Console.WriteLine("--1--id" + id + "---mobile----" + phoneno);
+            var result = clients.UpdateClientMobile(id, phoneno);
+            if (result) return Ok(result);
+            return StatusCode(500);
+        }
+    }
+}

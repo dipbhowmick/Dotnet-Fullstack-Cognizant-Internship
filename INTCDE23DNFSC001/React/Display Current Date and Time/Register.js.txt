@@ -1,0 +1,45 @@
+// Please do not make any changes in the given template
+import React, { Component } from 'react';
+import './Styles.css';
+
+
+class Register extends Component {
+  
+    // IMPLEMENT YOUR CODE HERE
+    render(){
+        return(
+            <div>
+                <h1>Stock Securities</h1>
+                <p>Welcome to one of the leading online platforms for stock trading in the country</p>
+                <TimeComp />
+            </div>
+        );
+    }
+}
+
+class TimeComp extends Component {
+  
+  // IMPLEMENT YOUR CODE HERE
+  constructor(props) {
+    super(props);
+    this.state = { date: new Date() };
+  }
+  
+  render(){
+    return(
+        <div>
+            <p>
+                You have successfully registered with us on 
+                {this.state.date.getHours()}:{this.state.date.getMinutes()}:{this.state.date.getSeconds()} 
+                at 
+                {this.state.date.getDate()}-{this.state.date.getMonth()+1}-{this.state.date.getFullYear()}
+            </p>
+        </div>
+    );
+  }
+
+}
+
+export {TimeComp};
+export default Register;
+

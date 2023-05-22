@@ -1,0 +1,5 @@
+select h.hotel_id, h.hotel_name, count(*) as no_of_orders 
+from hotel_details h, orders o
+where  h.hotel_id = o.hotel_id
+group by h.hotel_id having count(h.hotel_id) > 5
+order by h.hotel_id asc;

@@ -1,0 +1,23 @@
+import React, { Component } from 'react';
+import './stock.css';
+class Stock extends Component {
+  
+  //IMPLEMENT YOUR CODE HERE. "stockName" and "stockShares" is sent through one props data (i.e) as JSON
+  
+	render(){
+	   return (
+	      <div>
+	        <h1>Stock Securities</h1>
+	        <h3>Stock Name</h3>
+	        {this.props.dashValues.stockName}
+	        <h3>Stock Shares</h3>
+	        {this.props.dashValues.stockShares}
+	      </div>
+	   );
+	}
+}
+  
+
+
+
+export default Stock;

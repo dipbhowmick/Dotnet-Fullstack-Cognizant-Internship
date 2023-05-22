@@ -1,0 +1,6 @@
+function ValidatePAN(){
+    var regexp = /^[a-zA-Z]{5}[0-9]{4}[a-zA-Z]$/;
+    var pan = document.getElementById("txt").value;
+    document.getElementById("result").innerHTML = pan + " is " + 
+        (regexp.test(pan) ? "Valid" : "Invalid");
+}

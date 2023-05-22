@@ -1,0 +1,9 @@
+function calculateEMI(){
+    var P = document.getElementById("principalAmount").value;
+    var R = document.getElementById("interestRate").value / 1200;
+    var N = document.getElementById("tenure").value;
+    // console.log(P + " " + R + " " + N);
+    var emi = P * R * (Math.pow(1 + R, N) / (Math.pow(1 + R, N) - 1));
+    document.getElementById("result").innerHTML = "EMI is Rs." + emi.toFixed(2);
+    return false;
+}

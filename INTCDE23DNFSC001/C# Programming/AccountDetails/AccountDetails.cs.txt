@@ -1,0 +1,55 @@
+using System;
+public class Account {
+    private int id;
+    private String accountType;
+    private double balance;
+    
+    public int Id{
+        get { return id; }
+        set { id = value; }
+    }
+    public String AccountType{
+        get { return accountType; }
+        set { accountType = value; }
+    }
+    public double Balance{
+        get { return balance; }
+        set { balance = value; }
+    }
+    
+    public Account(){}
+    public Account(int id, String accountType, double balance){
+        this.id = id;
+        this.accountType = accountType;
+        this.balance = balance;
+    }
+    public bool WithDraw(double amount){
+        if (this.balance < amount) return false;
+        this.balance -= amount;
+        return true;
+    }
+    public String GetDetails(){
+        return $"Account Id: {this.id}\nAccount Type: {this.accountType}\nBalance: {this.balance}";
+    }
+}
+public class Program {
+    public static void Main(String[] args){
+        Console.WriteLine("Enter account id");
+        int id = int.Parse(Console.ReadLine());
+        
+        Console.WriteLine("Enter account type");
+        String accountType = Console.ReadLine();
+        
+        Console.WriteLine("Enter account balance");
+        double balance = double.Parse(Console.ReadLine());
+        
+        Console.WriteLine("Enter account to withdraw");
+        double withdraw = double.Parse(Console.ReadLine());
+        
+        Account acc = new Account(id, accountType, balance);
+        Console.WriteLine(acc.GetDetails());
+        
+        if(acc.WithDraw(withdraw))
+        Console.WriteLine("New Balance : {0}", acc.Balance);
+    }
+}

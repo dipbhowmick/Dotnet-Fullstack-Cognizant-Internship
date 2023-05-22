@@ -1,0 +1,11 @@
+function validateEmail(email) {
+   //fill the code
+   var regex = /[\w\.]+@[\w\.]+\.[\w]+/
+   if(regex.test(email))
+   return "Valid email address!";
+   else
+   return "Invalid email address!";
+}
+
+//console.log(validateEmail('info123@example.com'));
+//console.log(validateEmail('abc-defmail.com'));

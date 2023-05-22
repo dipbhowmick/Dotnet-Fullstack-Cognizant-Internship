@@ -1,0 +1,25 @@
+DECLARE @deptname VARCHAR(36);
+DECLARE @no_of_employees VARCHAR(10);
+
+DECLARE cur CURSOR FOR
+SELECT d.deptname, CAST(count(*) AS VARCHAR(10)) AS no_of_employees
+FROM Employee e, Department d
+WHERE e.workdept = d.deptno
+GROUP BY d.deptname 
+HAVING count(*) > 1;
+
+OPEN cur
+
+FETCH NEXT FROM cur
+INTO @deptname, @no_of_employees
+
+WHILE @@FETCH_STATUS = 0
+BEGIN
+    PRINT @deptname + ' department has ' + @no_of_employees + ' employees';
+
+    FETCH NEXT FROM cur
+    INTO @deptname, @no_of_employees
+END
+CLOSE cur;
+DEALLOCATE cur;
+GO

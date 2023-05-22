@@ -1,0 +1,1 @@
+alter table cars add car_regno varchar(10);

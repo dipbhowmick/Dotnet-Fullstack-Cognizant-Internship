@@ -1,0 +1,34 @@
+using ASP_App1.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Mvc;
+
+namespace ASP_App1.Controllers       //DO NOT change the namespace name
+{
+    public class Ex3Controller : Controller         //DO NOT change the class name
+    {
+        // Implement 'Index' action 
+        public ActionResult Index() => base.RedirectToAction(nameof(CourseDescription), new Course { CourseId = "C101", CourseName = "Java", Duration = 40, Level = "Beginner" });
+
+        // Implement 'IndexChoice' action
+        public ActionResult IndexChoice(int id)
+        {
+            if (id == 1)
+                return base.RedirectToAction(nameof(CourseDescription), new Course { CourseId = "C101", CourseName = "Java", Duration = 40, Level = "Beginner" });
+
+            if (id == 2)
+                return base.RedirectToAction(nameof(CourseList), new Department() { CourseList = new List<string>() { "Java", "DotNet", "Python", "Ruby" }});
+        
+            return null;
+        }
+        
+        // Implement 'CourseDescription' action
+        public ActionResult CourseDescription(Course course) => View(course);
+        
+        // Implement 'CourseList' action
+        public ActionResult CourseList(Department department) => View(department);
+        
+    }
+}

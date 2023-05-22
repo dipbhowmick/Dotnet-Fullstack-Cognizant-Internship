@@ -1,0 +1,10 @@
+create table orders (
+    ord_no numeric(5),
+    purch_amt decimal(8,2),
+    ord_date date,
+    customer_id numeric(5),
+    salesman_id numeric(5),
+    primary key (ord_no),
+    foreign key (salesman_id) references salesman(salesman_id)
+)
+GO

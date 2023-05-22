@@ -1,0 +1,10 @@
+//WRITE YOUR jQUERY CODE HERE
+$(function(){
+    $(".add-row").click(function(){
+        var name = $("#name").val();
+        $("tbody").append('<tr><td><input type="checkbox" name="record"></td><td>' + name + '</td></tr>');
+    });
+    $(".delete-row").click(function(){
+        $('tr:has(input[type="checkbox"]:checked)').remove();
+    });
+});

@@ -1,0 +1,5 @@
+select concat(e.lastname, ' works for ', m.lastname) as Hierarchy
+from employee e, department d, employee m
+where e.workdept = d.deptno and d.mgrno = m.empno and e.empno != m.empno
+order by e.lastname
+GO

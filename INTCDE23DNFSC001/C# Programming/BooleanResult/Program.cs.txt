@@ -1,0 +1,17 @@
+using System;
+
+public class Program      //DO NOT change the class name
+{
+    //implement code here
+    public static void Main(String[] args){
+        int x, y;
+        
+        Console.WriteLine("Enter the value for x");
+        x = int.Parse(Console.ReadLine());
+        
+        Console.WriteLine("Enter the value for y");
+        y = int.Parse(Console.ReadLine());
+        
+        Console.WriteLine("x is less than y is " + (x < y));
+    }
+}

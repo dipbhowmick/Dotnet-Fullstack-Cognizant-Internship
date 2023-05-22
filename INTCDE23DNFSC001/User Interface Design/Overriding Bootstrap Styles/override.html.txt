@@ -1,0 +1,59 @@
+
+ <!-- DO NOT CHANGE ANY THING IN THIS FILE.  WRITE YOUR CODE IN 'custom.css' FILE ALONE -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Customize Bootstrap classes</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <link href="custom.css" rel="stylesheet" /> 
+    
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+
+<!-- Material form subscription -->
+<div class="card">
+
+    <h5 class="card-header info-color white-text text-center py-4">
+       <p class="h4 mb-3">Get Free Email Updates!</p>
+    </h5>
+
+    <!--Card content-->
+    <div class="card-body px-lg-5">
+
+        <!-- Form -->      
+        <form class="text-center border border-light p-3" style="color: #757575;" action="#!">
+
+            <p>Join us for FREE to get instant email updates!</p>
+
+            <!-- Name -->
+            <input type="text" id="name" class="form-control mb-4" placeholder="Name">
+
+            <!-- Email -->
+            <input type="email" id="defaultSubscriptionFormEmail" class="form-control mb-4" placeholder="E-mail">
+            <p>
+                <a href="" target="_blank">Your Information is Safe With Us</a>
+            </p> 
+
+
+            <!-- Sign in button -->
+            <button class="btn btn-info btn-block" type="submit">Get Access Today!</button>
+
+
+        </form>
+        <!-- Form -->
+
+    </div>
+
+</div>
+
+</body>
+</html>

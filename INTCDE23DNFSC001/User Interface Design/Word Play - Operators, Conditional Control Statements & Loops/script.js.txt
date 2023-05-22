@@ -1,0 +1,17 @@
+function wordPlay(number){
+    //fill the code
+    if(number > 50) return "Range is High";
+    else if(number < 1) return "Not Valid";
+    else {
+        var s = "";
+        for (var i = 1; i <= number; i++) {
+            if(i % 5 === 0 && i % 3 === 0) s += " Jump";
+            else if(i % 3 === 0) s+= " Tap";
+            else if(i % 5 === 0) s+= " Clap";
+            else s+= " " + i;
+        }
+        return s;
+    }
+}
+
+console.log(wordPlay(16));

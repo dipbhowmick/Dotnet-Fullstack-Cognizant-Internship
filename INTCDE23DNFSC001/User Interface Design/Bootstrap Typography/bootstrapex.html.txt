@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- DO NOT CHANGE ANY THING UNDER HEAD SECTION -->
+<head>
+	<title>Bootstrap Example</title>
+  	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<!-- CREATE THE PAGE LAYOUT ACCORDING TO GIVEN SPECIFICATIONS  -->
+<!-- HINT :- Use PANEL,abbr,mark,small,Various helper classes and various responsive utilities concepts related to bootstrap -->
+
+</body>
+</html>

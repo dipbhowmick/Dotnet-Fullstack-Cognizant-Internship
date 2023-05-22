@@ -1,0 +1,58 @@
+// Please do not make any changes in the given template
+
+import React, { Component } from 'react';
+import './Styles.css';
+
+const ShareMarket=()=> {
+    const date = new Date();
+    const dd = date.getDate();
+    const mm = date.getMonth() + 1;
+    const yyyy = date.getFullYear();
+    return(
+        <div>
+            <h1>Share Market Statistics</h1>
+            <h3>Commodity Report Dated:{dd}-{mm}-{yyyy}</h3>
+            <Telecom />
+        </div>
+    );
+}
+
+class Telecom extends Component {
+    constructor(props){
+        super(props);
+        this.commodity = 'Telecom';
+        this.price = 3000;
+        this.change = 200;
+        this.percentage = 3; 
+    }
+    
+    render(){
+        
+        return(
+            <div>
+            <table border="2">
+            <thead>
+                <tr>
+                    <th>Commodity</th>
+                    <th>Price</th>
+                    <th>Change</th>
+                    <th>Change %</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{this.commodity}</td>
+                    <td>{this.price}</td>
+                    <td>{this.change}</td>
+                    <td>{this.percentage}</td>
+                </tr>
+            </tbody>
+            </table>  
+            </div>
+        );
+    }
+  
+}
+
+export {Telecom};
+export default ShareMarket;

@@ -1,0 +1,6 @@
+using System;
+
+public class Program      //DO NOT change the class name
+{
+    //implement code here
+}

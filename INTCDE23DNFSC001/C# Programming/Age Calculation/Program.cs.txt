@@ -1,0 +1,30 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DateEx1              //DO NOT CHANGE the namespace name
+{
+    public class Program       //DO NOT CHANGE the class name
+    {
+        public static void Main(string[] args)    //DO NOT CHANGE the 'Main' method signature
+        {
+            Console.WriteLine("Enter the date of birth (dd-mm-yyyy): ");
+            //Implement code here
+            string dob = Console.ReadLine();
+            Console.WriteLine(calculateAge(dob));
+        }
+
+        public static int calculateAge(string dateOfBirth)
+        {
+            //Implement code here
+            DateTime dob = DateTime.ParseExact(dateOfBirth, "dd-MM-yyyy", null);
+            int age = DateTime.Now.Year - dob.Year;
+            if (DateTime.Now.DayOfYear < dob.DayOfYear) age -= 1;
+            return age;
+        }
+
+
+    }
+}

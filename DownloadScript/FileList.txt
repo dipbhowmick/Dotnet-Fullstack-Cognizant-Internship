@@ -1,0 +1,1127 @@
+20 modules found!
+├── 0/20 Engineering Concepts - Part I
+│   0 hands-ons found!
+├── 1/20 User Interface Design
+│   48 hands-ons found!
+│   ├── 0/48 Simple CALCULATOR
+│   │   4 files found!
+│   │   ├── 0/4 Calculator.html
+│   │   │   File size: 1230 bytes
+│   │   ├── 1/4 calc.jpg
+│   │   │   Cannot get file content!
+│   │   ├── 2/4 reset.jpg
+│   │   │   Cannot get file content!
+│   │   ├── 3/4 calculator.jpg
+│   │   │   Cannot get file content!
+│   ├── 1/48 Learning Material Styling
+│   │   2 files found!
+│   │   ├── 0/2 LearningMaterial.html
+│   │   │   File size: 2232 bytes
+│   │   ├── 1/2 LearningMaterial.css
+│   │   │   File size: 694 bytes
+│   ├── 2/48 FeedBack Details
+│   │   2 files found!
+│   │   ├── 0/2 index.html
+│   │   │   File size: 495 bytes
+│   │   ├── 1/2 script.js
+│   │   │   File size: 636 bytes
+│   ├── 3/48 Bill Calculator
+│   │   2 files found!
+│   │   ├── 0/2 billcalculator.html
+│   │   │   File size: 1654 bytes
+│   │   ├── 1/2 billcalc.css
+│   │   │   File size: 310 bytes
+│   ├── 4/48 Trainer Feedback Rating Chart
+│   │   2 files found!
+│   │   ├── 0/2 trainerfeedbackchart.html
+│   │   │   File size: 1557 bytes
+│   │   ├── 1/2 trainerfeedbackchart.css
+│   │   │   File size: 1131 bytes
+│   ├── 5/48 Rate Card For Boat Riding
+│   │   1 files found!
+│   │   ├── 0/1 BoatRidingRateCard.html
+│   │   │   File size: 3973 bytes
+│   ├── 6/48 ACTB Connection Portal
+│   │   1 files found!
+│   │   ├── 0/1 Connection.html
+│   │   │   File size: 4808 bytes
+│   ├── 7/48 Fixed And Reducing Interest Loan Estimator
+│   │   2 files found!
+│   │   ├── 0/2 ReducedInterestEstimation.html
+│   │   │   File size: 2615 bytes
+│   │   ├── 1/2 Estimation.js
+│   │   │   File size: 1864 bytes
+│   ├── 8/48 Word Play - Operators, Conditional Control Statements & Loops
+│   │   1 files found!
+│   │   ├── 0/1 script.js
+│   │   │   File size: 452 bytes
+│   ├── 9/48 Find Unique Characters - Functions
+│   │   1 files found!
+│   │   ├── 0/1 script.js
+│   │   │   File size: 316 bytes
+│   ├── 10/48 Placing Order For Cake - String & Math
+│   │   1 files found!
+│   │   ├── 0/1 script.js
+│   │   │   File size: 433 bytes
+│   ├── 11/48 Validate Email - Regular Expression & test Function
+│   │   1 files found!
+│   │   ├── 0/1 script.js
+│   │   │   File size: 298 bytes
+│   ├── 12/48 Greetings - DOM
+│   │   2 files found!
+│   │   ├── 0/2 index.html
+│   │   │   File size: 936 bytes
+│   │   ├── 1/2 script.js
+│   │   │   File size: 360 bytes
+│   ├── 13/48 Employee Experience Details - Class and Object & Date
+│   │   1 files found!
+│   │   ├── 0/1 script.js
+│   │   │   File size: 907 bytes
+│   ├── 14/48 EMI Calculator
+│   │   2 files found!
+│   │   ├── 0/2 EMICalculator.html
+│   │   │   File size: 1700 bytes
+│   │   ├── 1/2 EMICalculator.js
+│   │   │   File size: 420 bytes
+│   ├── 15/48 Electricity Bill Calculation - Operators & Conditional Control Statements
+│   │   1 files found!
+│   │   ├── 0/1 script.js
+│   │   │   File size: 428 bytes
+│   ├── 16/48 Prime Number Check - Operators, Conditional Control Statements & Loops
+│   │   1 files found!
+│   │   ├── 0/1 script.js
+│   │   │   File size: 342 bytes
+│   ├── 17/48 Validate Pan Card - DOM
+│   │   2 files found!
+│   │   ├── 0/2 index.html
+│   │   │   File size: 389 bytes
+│   │   ├── 1/2 script.js
+│   │   │   File size: 243 bytes
+│   ├── 18/48 Load jQuery
+│   │   2 files found!
+│   │   ├── 0/2 load.js
+│   │   │   File size: 179 bytes
+│   │   ├── 1/2 load.html
+│   │   │   File size: 290 bytes
+│   ├── 19/48 Welcome Message
+│   │   2 files found!
+│   │   ├── 0/2 welcome.html
+│   │   │   File size: 319 bytes
+│   │   ├── 1/2 welcome.js
+│   │   │   File size: 158 bytes
+│   ├── 20/48 Three Divisions
+│   │   2 files found!
+│   │   ├── 0/2 divisions.html
+│   │   │   File size: 762 bytes
+│   │   ├── 1/2 divisions.js
+│   │   │   File size: 167 bytes
+│   ├── 21/48 Select the Boxes
+│   │   2 files found!
+│   │   ├── 0/2 chkbox.html
+│   │   │   File size: 636 bytes
+│   │   ├── 1/2 chkbox.js
+│   │   │   File size: 236 bytes
+│   ├── 22/48 Customer Data
+│   │   2 files found!
+│   │   ├── 0/2 customer.html
+│   │   │   File size: 1250 bytes
+│   │   ├── 1/2 customer.js
+│   │   │   File size: 344 bytes
+│   ├── 23/48 Vertical Menu
+│   │   2 files found!
+│   │   ├── 0/2 menu.html
+│   │   │   File size: 1040 bytes
+│   │   ├── 1/2 menu.js
+│   │   │   File size: 324 bytes
+│   ├── 24/48 Get JSON Data
+│   │   2 files found!
+│   │   ├── 0/2 country.html
+│   │   │   File size: 486 bytes
+│   │   ├── 1/2 country.js
+│   │   │   File size: 533 bytes
+│   ├── 25/48 Error Message
+│   │   2 files found!
+│   │   ├── 0/2 employee.html
+│   │   │   File size: 298 bytes
+│   │   ├── 1/2 employee.js
+│   │   │   File size: 345 bytes
+│   ├── 26/48 Login Form
+│   │   2 files found!
+│   │   ├── 0/2 login.html
+│   │   │   File size: 2531 bytes
+│   │   ├── 1/2 login.js
+│   │   │   File size: 335 bytes
+│   ├── 27/48 Alternate Rows - Selectors
+│   │   2 files found!
+│   │   ├── 0/2 Alternate.html
+│   │   │   File size: 1357 bytes
+│   │   ├── 1/2 script.js
+│   │   │   File size: 187 bytes
+│   ├── 28/48 Ice Cream Flavours - Selectors
+│   │   2 files found!
+│   │   ├── 0/2 flavours.html
+│   │   │   File size: 811 bytes
+│   │   ├── 1/2 script.js
+│   │   │   File size: 267 bytes
+│   ├── 29/48 Change Case - Selectors
+│   │   2 files found!
+│   │   ├── 0/2 upper.html
+│   │   │   File size: 492 bytes
+│   │   ├── 1/2 script.js
+│   │   │   File size: 247 bytes
+│   ├── 30/48 Missing Values -Selectors
+│   │   2 files found!
+│   │   ├── 0/2 empty.html
+│   │   │   File size: 958 bytes
+│   │   ├── 1/2 script.js
+│   │   │   File size: 28 bytes
+│   ├── 31/48 Describe Yourself - Selectors
+│   │   2 files found!
+│   │   ├── 0/2 length.html
+│   │   │   File size: 615 bytes
+│   │   ├── 1/2 script.js
+│   │   │   File size: 22 bytes
+│   ├── 32/48 Rectangle Click - Events
+│   │   2 files found!
+│   │   ├── 0/2 rectangle.html
+│   │   │   File size: 649 bytes
+│   │   ├── 1/2 script.js
+│   │   │   File size: 23 bytes
+│   ├── 33/48 Jelly Beans - Events
+│   │   2 files found!
+│   │   ├── 0/2 script.js
+│   │   │   File size: 35 bytes
+│   │   ├── 1/2 jelly.html
+│   │   │   File size: 783 bytes
+│   ├── 34/48 Bootstraps Navigation Bar
+│   │   1 files found!
+│   │   ├── 0/1 navigation.html
+│   │   │   File size: 3548 bytes
+│   ├── 35/48 Contact US
+│   │   1 files found!
+│   │   ├── 0/1 contact.html
+│   │   │   File size: 4356 bytes
+│   ├── 36/48 Page Layout
+│   │   2 files found!
+│   │   ├── 0/2 layout.html
+│   │   │   File size: 4868 bytes
+│   │   ├── 1/2 img3.png
+│   │   │   Cannot get file content!
+│   ├── 37/48 Responsive Web Page
+│   │   3 files found!
+│   │   ├── 0/3 responsive.html
+│   │   │   File size: 3071 bytes
+│   │   ├── 1/3 nature.jpg
+│   │   │   Cannot get file content!
+│   │   ├── 2/3 app.css
+│   │   │   File size: 1346 bytes
+│   ├── 38/48 BS Feedback Form
+│   │   1 files found!
+│   │   ├── 0/1 feedback.html
+│   │   │   File size: 1962 bytes
+│   ├── 39/48 Bootstrap Typography
+│   │   1 files found!
+│   │   ├── 0/1 bootstrapex.html
+│   │   │   File size: 752 bytes
+│   ├── 40/48 Bootstrap Panel
+│   │   1 files found!
+│   │   ├── 0/1 Panel.html
+│   │   │   File size: 783 bytes
+│   ├── 41/48 Bootstrap Responsive Grids
+│   │   2 files found!
+│   │   ├── 0/2 grid.html
+│   │   │   File size: 1237 bytes
+│   │   ├── 1/2 share.png
+│   │   │   Cannot get file content!
+│   ├── 42/48 Scrum Cards - Responsive Grid
+│   │   2 files found!
+│   │   ├── 0/2 GridCards.html
+│   │   │   File size: 3015 bytes
+│   │   ├── 1/2 Capture.png
+│   │   │   Cannot get file content!
+│   ├── 43/48 Nested Containers
+│   │   1 files found!
+│   │   ├── 0/1 container.html
+│   │   │   File size: 942 bytes
+│   ├── 44/48 Bootstrap Badges and GMIs
+│   │   1 files found!
+│   │   ├── 0/1 badges.html
+│   │   │   File size: 2332 bytes
+│   ├── 45/48 Bootstrap Cards
+│   │   1 files found!
+│   │   ├── 0/1 cards.html
+│   │   │   File size: 1050 bytes
+│   ├── 46/48 BS Loan Request Form
+│   │   1 files found!
+│   │   ├── 0/1 loan.html
+│   │   │   File size: 3280 bytes
+│   ├── 47/48 Overriding Bootstrap Styles
+│   │   2 files found!
+│   │   ├── 0/2 override.html
+│   │   │   File size: 1773 bytes
+│   │   ├── 1/2 custom.css
+│   │   │   File size: 26 bytes
+├── 2/20 SQL Programming
+│   30 hands-ons found!
+│   ├── 0/30 Insert Records - Department
+│   │   1 files found!
+│   │   ├── 0/1 insert.sql
+│   │   │   File size: 72 bytes
+│   ├── 1/30 Department name based on block number
+│   │   1 files found!
+│   │   ├── 0/1 bselect3.sql
+│   │   │   File size: 102 bytes
+│   ├── 2/30 Delivery Partner details based on rating
+│   │   1 files found!
+│   │   ├── 0/1 sample.sql
+│   │   │   File size: 118 bytes
+│   ├── 3/30 Car & owner details based on car type
+│   │   1 files found!
+│   │   ├── 0/1 query.sql
+│   │   │   File size: 83 bytes
+│   ├── 4/30 Car details based on type and name
+│   │   1 files found!
+│   │   ├── 0/1 query.sql
+│   │   │   File size: 118 bytes
+│   ├── 5/30 car rental system - Insert values
+│   │   1 files found!
+│   │   ├── 0/1 query.sql
+│   │   │   File size: 419 bytes
+│   ├── 6/30 Hunger eats - update table
+│   │   1 files found!
+│   │   ├── 0/1 sample.sql
+│   │   │   File size: 76 bytes
+│   ├── 7/30 Customers having gmail id
+│   │   1 files found!
+│   │   ├── 0/1 query.sql
+│   │   │   File size: 128 bytes
+│   ├── 8/30 Car rental system - Create Table
+│   │   1 files found!
+│   │   ├── 0/1 query.sql
+│   │   │   File size: 161 bytes
+│   ├── 9/30 Car rental system - add new column
+│   │   1 files found!
+│   │   ├── 0/1 query.sql
+│   │   │   File size: 43 bytes
+│   ├── 10/30 Hunger eats - change datatype
+│   │   1 files found!
+│   │   ├── 0/1 sample.sql
+│   │   │   File size: 45 bytes
+│   ├── 11/30 Hunger eats - Change the field name
+│   │   1 files found!
+│   │   ├── 0/1 sample.sql
+│   │   │   File size: 57 bytes
+│   ├── 12/30 Student and their Department Based on City
+│   │   1 files found!
+│   │   ├── 0/1 joins3.sql
+│   │   │   File size: 199 bytes
+│   ├── 13/30 Concatenating Details
+│   │   1 files found!
+│   │   ├── 0/1 singlerow3.sql
+│   │   │   File size: 80 bytes
+│   ├── 14/30 Password Generation
+│   │   1 files found!
+│   │   ├── 0/1 singlerow1bms.sql
+│   │   │   File size: 87 bytes
+│   ├── 15/30 Customer using HDFC bank
+│   │   1 files found!
+│   │   ├── 0/1 subquery3bms.sql
+│   │   │   File size: 216 bytes
+│   ├── 16/30 Rental details based on date
+│   │   1 files found!
+│   │   ├── 0/1 query.sql
+│   │   │   File size: 149 bytes
+│   ├── 17/30 Hotels that took order based on month
+│   │   1 files found!
+│   │   ├── 0/1 sample.sql
+│   │   │   File size: 158 bytes
+│   ├── 18/30 Hotel_info
+│   │   1 files found!
+│   │   ├── 0/1 sample.sql
+│   │   │   File size: 116 bytes
+│   ├── 19/30 No of time rented by each car
+│   │   1 files found!
+│   │   ├── 0/1 query.sql
+│   │   │   File size: 86 bytes
+│   ├── 20/30 Hotels that took order more than five times
+│   │   1 files found!
+│   │   ├── 0/1 sample.sql
+│   │   │   File size: 194 bytes
+│   ├── 21/30 Total sale daywise
+│   │   1 files found!
+│   │   ├── 0/1 sample.sql
+│   │   │   Cannot get file content!
+│   ├── 22/30 Hotels not taken orders in a specific month
+│   │   1 files found!
+│   │   ├── 0/1 sample.sql
+│   │   │   Cannot get file content!
+│   ├── 23/30 Credential details
+│   │   1 files found!
+│   │   ├── 0/1 query.sql
+│   │   │   Cannot get file content!
+│   ├── 24/30 Maruthi car owner details
+│   │   1 files found!
+│   │   ├── 0/1 query.sql
+│   │   │   Cannot get file content!
+│   ├── 25/30 Cars not taken for rent
+│   │   1 files found!
+│   │   ├── 0/1 query.sql
+│   │   │   Cannot get file content!
+│   ├── 26/30 Customer mail details
+│   │   1 files found!
+│   │   ├── 0/1 sample.sql
+│   │   │   Cannot get file content!
+│   ├── 27/30 Order details
+│   │   1 files found!
+│   │   ├── 0/1 sample.sql
+│   │   │   Cannot get file content!
+│   ├── 28/30 Buses based on Source and Destination
+│   │   1 files found!
+│   │   ├── 0/1 joins2bms.sql
+│   │   │   Cannot get file content!
+│   ├── 29/30 Number of Tickets Booked
+│   │   1 files found!
+│   │   ├── 0/1 groupfuction3bms.sql
+│   │   │   Cannot get file content!
+├── 3/20 C# Programming
+│   25 hands-ons found!
+│   ├── 0/25 Registration Form
+│   │   1 files found!
+│   │   ├── 0/1 Program.cs
+│   │   │   File size: 860 bytes
+│   ├── 1/25 Find Square and Cube
+│   │   1 files found!
+│   │   ├── 0/1 Program.cs
+│   │   │   File size: 941 bytes
+│   ├── 2/25 BooleanResult
+│   │   1 files found!
+│   │   ├── 0/1 Program.cs
+│   │   │   File size: 448 bytes
+│   ├── 3/25 MaxValueofSignedByte
+│   │   1 files found!
+│   │   ├── 0/1 Program.cs
+│   │   │   File size: 367 bytes
+│   ├── 4/25 Generate Bill Details
+│   │   1 files found!
+│   │   ├── 0/1 Program.cs
+│   │   │   File size: 1379 bytes
+│   ├── 5/25 User Details
+│   │   1 files found!
+│   │   ├── 0/1 Program.cs
+│   │   │   File size: 1055 bytes
+│   ├── 6/25 StringConcatenate
+│   │   1 files found!
+│   │   ├── 0/1 Program.cs
+│   │   │   File size: 423 bytes
+│   ├── 7/25 Quiz Competition Report
+│   │   1 files found!
+│   │   ├── 0/1 JaggedArray.cs
+│   │   │   File size: 1558 bytes
+│   ├── 8/25 Reverse a Sentence
+│   │   1 files found!
+│   │   ├── 0/1 Program.cs
+│   │   │   File size: 784 bytes
+│   ├── 9/25 AccountDetails
+│   │   1 files found!
+│   │   ├── 0/1 AccountDetails.cs
+│   │   │   File size: 1632 bytes
+│   ├── 10/25 OpenableInterface
+│   │   1 files found!
+│   │   ├── 0/1 OpenableInterface.cs
+│   │   │   File size: 675 bytes
+│   ├── 11/25 GameInheritance
+│   │   1 files found!
+│   │   ├── 0/1 GameInheritance.cs
+│   │   │   File size: 1311 bytes
+│   ├── 12/25 Find the Age of a person
+│   │   1 files found!
+│   │   ├── 0/1 BirthdayProject.cs
+│   │   │   File size: 1571 bytes
+│   ├── 13/25 CalculatorProgram
+│   │   1 files found!
+│   │   ├── 0/1 CalculatorProgram.cs
+│   │   │   File size: 1170 bytes
+│   ├── 14/25 Extract Book Code - Hands -On
+│   │   1 files found!
+│   │   ├── 0/1 ExtractBookCode.cs
+│   │   │   File size: 1779 bytes
+│   ├── 15/25 MultiplicationTablesChart
+│   │   1 files found!
+│   │   ├── 0/1 Program.cs
+│   │   │   File size: 102 bytes
+│   ├── 16/25 Flight Status
+│   │   1 files found!
+│   │   ├── 0/1 Program.cs
+│   │   │   File size: 1463 bytes
+│   ├── 17/25 Age Calculation
+│   │   1 files found!
+│   │   ├── 0/1 Program.cs
+│   │   │   File size: 916 bytes
+│   ├── 18/25 Product Details
+│   │   3 files found!
+│   │   ├── 0/3 Program.cs
+│   │   │   File size: 752 bytes
+│   │   ├── 1/3 Product.cs
+│   │   │   File size: 1242 bytes
+│   │   ├── 2/3 input.csv
+│   │   │   File size: 95 bytes
+│   ├── 19/25 Vehicles Released in Certain Years - Linq
+│   │   2 files found!
+│   │   ├── 0/2 Vehicle.cs
+│   │   │   File size: 721 bytes
+│   │   ├── 1/2 Program.cs
+│   │   │   File size: 2407 bytes
+│   ├── 20/25 Balls Bowled - Hands-On
+│   │   1 files found!
+│   │   ├── 0/1 BallsBowled.cs
+│   │   │   File size: 1157 bytes
+│   ├── 21/25 AddNewMember - Hands- On
+│   │   1 files found!
+│   │   ├── 0/1 Club.cs
+│   │   │   File size: 1254 bytes
+│   ├── 22/25 Bank Information - FileWrite
+│   │   1 files found!
+│   │   ├── 0/1 Program.cs
+│   │   │   File size: 222 bytes
+│   ├── 23/25 ADO.NET_WorkshopEnrollmentApp_HandsOn1
+│   │   5 files found!
+│   │   ├── 0/5 Program.cs
+│   │   │   File size: 3140 bytes
+│   │   ├── 1/5 App.config
+│   │   │   File size: 341 bytes
+│   │   ├── 2/5 TraineeBL.cs
+│   │   │   File size: 349 bytes
+│   │   ├── 3/5 TraineeBO.cs
+│   │   │   File size: 519 bytes
+│   │   ├── 4/5 TraineeDA.cs
+│   │   │   File size: 1257 bytes
+│   ├── 24/25 Seminar Ticket Booking
+│   │   2 files found!
+│   │   ├── 0/2 Program.cs
+│   │   │   File size: 4633 bytes
+│   │   ├── 1/2 App.config
+│   │   │   File size: 344 bytes
+├── 4/20 Engineering Concepts - Part II
+│   0 hands-ons found!
+├── 5/20 Data Structures and Algorithms
+│   0 hands-ons found!
+├── 6/20 SQL
+│   16 hands-ons found!
+│   ├── 0/16 Create table with Foreign Key constraint
+│   │   1 files found!
+│   │   ├── 0/1 result.sql
+│   │   │   File size: 241 bytes
+│   ├── 1/16 Alter Supplier table with Check Constraint
+│   │   1 files found!
+│   │   ├── 0/1 result.sql
+│   │   │   File size: 78 bytes
+│   ├── 2/16 Worker and Admin Departments
+│   │   1 files found!
+│   │   ├── 0/1 result.sql
+│   │   │   File size: 235 bytes
+│   ├── 3/16 Employee with reporting manger
+│   │   1 files found!
+│   │   ├── 0/1 result.sql
+│   │   │   File size: 203 bytes
+│   ├── 4/16 Procedure to display the Employees of a specific Department
+│   │   1 files found!
+│   │   ├── 0/1 result.sql
+│   │   │   File size: 127 bytes
+│   ├── 5/16 Procedure to display all the Departments
+│   │   1 files found!
+│   │   ├── 0/1 result.sql
+│   │   │   File size: 94 bytes
+│   ├── 6/16 Employees working in New York
+│   │   1 files found!
+│   │   ├── 0/1 result.sql
+│   │   │   File size: 205 bytes
+│   ├── 7/16 Employee Count per Department
+│   │   1 files found!
+│   │   ├── 0/1 result.sql
+│   │   │   File size: 170 bytes
+│   ├── 8/16 Retrieve the Employee Details
+│   │   1 files found!
+│   │   ├── 0/1 result.sql
+│   │   │   File size: 251 bytes
+│   ├── 9/16 Procedure to retrieve the Player data
+│   │   1 files found!
+│   │   ├── 0/1 result.sql
+│   │   │   Cannot get file content!
+│   ├── 10/16 Trigger - claims
+│   │   1 files found!
+│   │   ├── 0/1 result.sql
+│   │   │   File size: 939 bytes
+│   ├── 11/16 Department records using cursors
+│   │   1 files found!
+│   │   ├── 0/1 result.sql
+│   │   │   File size: 552 bytes
+│   ├── 12/16 Insert_records- Triggers-af_insert
+│   │   1 files found!
+│   │   ├── 0/1 result.sql
+│   │   │   Cannot get file content!
+│   ├── 13/16 Update Records -Trigger
+│   │   1 files found!
+│   │   ├── 0/1 result.sql
+│   │   │   Cannot get file content!
+│   ├── 14/16 Employee records using cursors
+│   │   1 files found!
+│   │   ├── 0/1 result.sql
+│   │   │   Cannot get file content!
+│   ├── 15/16 Create a Procedure delete_status
+│   │   1 files found!
+│   │   ├── 0/1 result.sql
+│   │   │   File size: 514 bytes
+├── 7/20 ORM Framework
+│   3 hands-ons found!
+│   ├── 0/3 StudentDetails Using CodeFirst
+│   │   3 files found!
+│   │   ├── 0/3 Program.cs
+│   │   │   File size: 1450 bytes
+│   │   ├── 1/3 Student.cs
+│   │   │   File size: 524 bytes
+│   │   ├── 2/3 CollegeContext.cs
+│   │   │   File size: 603 bytes
+│   ├── 1/3 BookEntry_FluentAPI
+│   │   4 files found!
+│   │   ├── 0/4 Book.cs
+│   │   │   File size: 550 bytes
+│   │   ├── 1/4 BookUtil.cs
+│   │   │   File size: 2015 bytes
+│   │   ├── 2/4 LibraryContext.cs
+│   │   │   File size: 807 bytes
+│   │   ├── 3/4 Program.cs
+│   │   │   File size: 391 bytes
+│   ├── 2/3 CourseRepository
+│   │   4 files found!
+│   │   ├── 0/4 Program.cs
+│   │   │   File size: 352 bytes
+│   │   ├── 1/4 Course.cs
+│   │   │   File size: 533 bytes
+│   │   ├── 2/4 CourseRepository.cs
+│   │   │   File size: 1211 bytes
+│   │   ├── 3/4 CourseContext.cs
+│   │   │   File size: 563 bytes
+├── 8/20 Web Application Framework
+│   17 hands-ons found!
+│   ├── 0/17 Ex 1.1 - Controllers and Actions
+│   │   1 files found!
+│   │   ├── 0/1 Ex1Controller.cs
+│   │   │   File size: 695 bytes
+│   ├── 1/17 Ex 1.2 Controllers and Actions
+│   │   3 files found!
+│   │   ├── 0/3 Ex2Controller.cs
+│   │   │   File size: 843 bytes
+│   │   ├── 1/3 DotNetCourse.cshtml
+│   │   │   File size: 12 bytes
+│   │   ├── 2/3 JavaCourse.cshtml
+│   │   │   File size: 10 bytes
+│   ├── 2/17 Ex 2.1 - Working With View Bag
+│   │   2 files found!
+│   │   ├── 0/2 HomeController.cs
+│   │   │   File size: 831 bytes
+│   │   ├── 1/2 About.cshtml
+│   │   │   File size: 104 bytes
+│   ├── 3/17 Ex 3.1 Working With Model Binding
+│   │   4 files found!
+│   │   ├── 0/4 Ex3Controller.cs
+│   │   │   File size: 1311 bytes
+│   │   ├── 1/4 Course.cs
+│   │   │   File size: 513 bytes
+│   │   ├── 2/4 CourseDescription.cshtml
+│   │   │   File size: 693 bytes
+│   │   ├── 3/4 CourseList.cshtml
+│   │   │   File size: 144 bytes
+│   ├── 4/17 Ex 3.2 Working With Model Binding
+│   │   3 files found!
+│   │   ├── 0/3 Ex3Controller.cs
+│   │   │   File size: 936 bytes
+│   │   ├── 1/3 ShoppingCart.cs
+│   │   │   File size: 668 bytes
+│   │   ├── 2/3 Cart.cshtml
+│   │   │   File size: 162 bytes
+│   ├── 5/17 Ex 5-1 Partial View
+│   │   4 files found!
+│   │   ├── 0/4 ChTrust.cshtml
+│   │   │   File size: 1654 bytes
+│   │   ├── 1/4 ChTrustController.cs
+│   │   │   File size: 645 bytes
+│   │   ├── 2/4 _HeaderNavBar.cshtml
+│   │   │   File size: 33 bytes
+│   │   ├── 3/4 _FooterNavBar.cshtml
+│   │   │   File size: 43 bytes
+│   ├── 6/17 Ex 4-1 Working With HTTP POST
+│   │   3 files found!
+│   │   ├── 0/3 CourseController.cs
+│   │   │   File size: 549 bytes
+│   │   ├── 1/3 Course.cshtml
+│   │   │   File size: 481 bytes
+│   │   ├── 2/3 Course.cs
+│   │   │   File size: 418 bytes
+│   ├── 7/17 Ex 4-2 Working With HTTP POST
+│   │   4 files found!
+│   │   ├── 0/4 VehicleController.cs
+│   │   │   File size: 809 bytes
+│   │   ├── 1/4 Registration.cshtml
+│   │   │   File size: 931 bytes
+│   │   ├── 2/4 Confirm.cshtml
+│   │   │   File size: 299 bytes
+│   │   ├── 3/4 Registration.cs
+│   │   │   File size: 513 bytes
+│   ├── 8/17 Ex 6-2 Entity Framework Integration With ASP MVC
+│   │   4 files found!
+│   │   ├── 0/4 StudentController.cs
+│   │   │   File size: 826 bytes
+│   │   ├── 1/4 CollegeContext.cs
+│   │   │   File size: 561 bytes
+│   │   ├── 2/4 Placement.cs
+│   │   │   File size: 463 bytes
+│   │   ├── 3/4 Placement.cshtml
+│   │   │   File size: 545 bytes
+│   ├── 9/17 Ex 6-3 Entity Framework Integration With ASP MVC - POST
+│   │   4 files found!
+│   │   ├── 0/4 StudentController.cs
+│   │   │   File size: 1096 bytes
+│   │   ├── 1/4 CollegeContext.cs
+│   │   │   File size: 546 bytes
+│   │   ├── 2/4 Student.cs
+│   │   │   File size: 466 bytes
+│   │   ├── 3/4 ViewDetails.cshtml
+│   │   │   File size: 450 bytes
+│   ├── 10/17 Ex 6-4 Entity Framework Integration With ASP - POST
+│   │   5 files found!
+│   │   ├── 0/5 Project.cs
+│   │   │   File size: 452 bytes
+│   │   ├── 1/5 ProjectController.cs
+│   │   │   File size: 860 bytes
+│   │   ├── 2/5 ProjectContext.cs
+│   │   │   File size: 536 bytes
+│   │   ├── 3/5 AddProjectDetails.cshtml
+│   │   │   File size: 428 bytes
+│   │   ├── 4/5 ViewProjectDetails.cshtml
+│   │   │   File size: 451 bytes
+│   ├── 11/17 Test Case - Check Equality
+│   │   2 files found!
+│   │   ├── 0/2 Program.cs
+│   │   │   File size: 669 bytes
+│   │   ├── 1/2 FunctionalTest.cs
+│   │   │   File size: 230 bytes
+│   ├── 12/17 Test Case - Check Object
+│   │   2 files found!
+│   │   ├── 0/2 Program.cs
+│   │   │   File size: 562 bytes
+│   │   ├── 1/2 FunctionalTest.cs
+│   │   │   File size: 230 bytes
+│   ├── 13/17 Test Case - Conditional Statement
+│   │   2 files found!
+│   │   ├── 0/2 Program.cs
+│   │   │   File size: 515 bytes
+│   │   ├── 1/2 FunctionalTest.cs
+│   │   │   File size: 230 bytes
+│   ├── 14/17 Test Case - String Compare
+│   │   2 files found!
+│   │   ├── 0/2 Program.cs
+│   │   │   File size: 378 bytes
+│   │   ├── 1/2 FunctionalTest.cs
+│   │   │   File size: 230 bytes
+│   ├── 15/17 Test Case - Collections
+│   │   2 files found!
+│   │   ├── 0/2 Program.cs
+│   │   │   File size: 532 bytes
+│   │   ├── 1/2 FunctionalTest.cs
+│   │   │   File size: 230 bytes
+│   ├── 16/17 Purchase Asset
+│   │   3 files found!
+│   │   ├── 0/3 FunctionalTest.cs
+│   │   │   File size: 238 bytes
+│   │   ├── 1/3 Asset.cs
+│   │   │   File size: 685 bytes
+│   │   ├── 2/3 AssetBO.cs
+│   │   │   File size: 481 bytes
+├── 9/20 Engineering Concepts - Part III
+│   0 hands-ons found!
+├── 10/20 Application Debugging part 1
+│   0 hands-ons found!
+├── 11/20  .NET Advanced Features
+│   3 hands-ons found!
+│   ├── 0/3 Quiz Board : Model and View, Partial View
+│   │   5 files found!
+│   │   ├── 0/5 QuestionController.cs
+│   │   │   File size: 781 bytes
+│   │   ├── 1/5 _LinkButton.cshtml
+│   │   │   File size: 57 bytes
+│   │   ├── 2/5 Create.cshtml
+│   │   │   File size: 2618 bytes
+│   │   ├── 3/5 Index.cshtml
+│   │   │   File size: 110 bytes
+│   │   ├── 4/5 Question.cs
+│   │   │   File size: 463 bytes
+│   ├── 1/3 Quiz Board : ViewBag, ViewData, TempData
+│   │   5 files found!
+│   │   ├── 0/5 Program.cs
+│   │   │   File size: 713 bytes
+│   │   ├── 1/5 QuizController.cs
+│   │   │   File size: 811 bytes
+│   │   ├── 2/5 UserName.cshtml
+│   │   │   File size: 29 bytes
+│   │   ├── 3/5 Question.cshtml
+│   │   │   File size: 37 bytes
+│   │   ├── 4/5 FinalOut.cshtml
+│   │   │   File size: 46 bytes
+│   ├── 2/3 Quiz Board : Data Seed
+│   │   5 files found!
+│   │   ├── 0/5 DbIntializer.cs
+│   │   │   File size: 1886 bytes
+│   │   ├── 1/5 IDbIntializer.cs
+│   │   │   File size: 117 bytes
+│   │   ├── 2/5 QuizDbContext.cs
+│   │   │   File size: 303 bytes
+│   │   ├── 3/5 Program.cs
+│   │   │   File size: 1176 bytes
+│   │   ├── 4/5 Question.cs
+│   │   │   File size: 858 bytes
+├── 12/20 ASP.Net Core WebApi
+│   4 hands-ons found!
+│   ├── 0/4 Advocate Booking API - Post
+│   │   6 files found!
+│   │   ├── 0/6 Controllers/ClientController.cs
+│   │   │   File size: 846 bytes
+│   │   ├── 1/6 Interface/IClient.cs
+│   │   │   File size: 274 bytes
+│   │   ├── 2/6 Models/Client.cs
+│   │   │   File size: 432 bytes
+│   │   ├── 3/6 Repository/StaticData.cs
+│   │   │   File size: 1174 bytes
+│   │   ├── 4/6 Startup.cs
+│   │   │   File size: 1336 bytes
+│   │   ├── 5/6 Repository/ClientRepository.cs
+│   │   │   File size: 619 bytes
+│   ├── 1/4  Advocate Booking API - Get
+│   │   6 files found!
+│   │   ├── 0/6 Startup.cs
+│   │   │   File size: 1375 bytes
+│   │   ├── 1/6 Controllers/ClientController.cs
+│   │   │   File size: 784 bytes
+│   │   ├── 2/6 Interface/IClient.cs
+│   │   │   File size: 238 bytes
+│   │   ├── 3/6 Models/Client.cs
+│   │   │   File size: 349 bytes
+│   │   ├── 4/6 Repository/ClientRepository.cs
+│   │   │   File size: 518 bytes
+│   │   ├── 5/6 Repository/StaticData.cs
+│   │   │   File size: 1832 bytes
+│   ├── 2/4 Advocate Booking API - Put
+│   │   6 files found!
+│   │   ├── 0/6 Startup.cs
+│   │   │   File size: 1375 bytes
+│   │   ├── 1/6 Controllers/ClientController.cs
+│   │   │   File size: 864 bytes
+│   │   ├── 2/6 Interface/IClient.cs
+│   │   │   File size: 143 bytes
+│   │   ├── 3/6 Models/Client.cs
+│   │   │   File size: 349 bytes
+│   │   ├── 4/6 Repository/ClientRepository.cs
+│   │   │   File size: 597 bytes
+│   │   ├── 5/6 Repository/StaticData.cs
+│   │   │   File size: 1817 bytes
+│   ├── 3/4 Advocate Booking API - Delete
+│   │   6 files found!
+│   │   ├── 0/6 Startup.cs
+│   │   │   File size: 1375 bytes
+│   │   ├── 1/6 Controllers/ClientController.cs
+│   │   │   File size: 868 bytes
+│   │   ├── 2/6 Interface/IClient.cs
+│   │   │   File size: 251 bytes
+│   │   ├── 3/6 Models/Client.cs
+│   │   │   File size: 404 bytes
+│   │   ├── 4/6 Repository/ClientRepository.cs
+│   │   │   File size: 634 bytes
+│   │   ├── 5/6 Repository/StaticData.cs
+│   │   │   File size: 1911 bytes
+├── 13/20 Engineering Concepts - Part IV
+│   0 hands-ons found!
+├── 14/20 Enhancement Project
+│   0 hands-ons found!
+├── 15/20 SCM Tool
+│   0 hands-ons found!
+├── 16/20 Application Debugging part 2
+│   0 hands-ons found!
+├── 17/20 Cloud Concepts
+│   0 hands-ons found!
+├── 18/20 Angular
+│   8 hands-ons found!
+│   ├── 0/8 My First - Sports Club App
+│   │   4 files found!
+│   │   ├── 0/4 app/app.component.css
+│   │   │   Cannot get file content!
+│   │   ├── 1/4 app/app.component.html
+│   │   │   File size: 31 bytes
+│   │   ├── 2/4 app/app.component.ts
+│   │   │   File size: 193 bytes
+│   │   ├── 3/4 app/app.module.ts
+│   │   │   File size: 297 bytes
+│   ├── 1/8 Boat Ride Entrance Fee
+│   │   7 files found!
+│   │   ├── 0/7 app/app.component.css
+│   │   │   File size: 113 bytes
+│   │   ├── 1/7 app/app.component.html
+│   │   │   File size: 131 bytes
+│   │   ├── 2/7 app/app.component.ts
+│   │   │   File size: 210 bytes
+│   │   ├── 3/7 app/app.module.ts
+│   │   │   File size: 404 bytes
+│   │   ├── 4/7 app/boatride/boatride.component.css
+│   │   │   File size: 191 bytes
+│   │   ├── 5/7 app/boatride/boatride.component.html
+│   │   │   File size: 771 bytes
+│   │   ├── 6/7 app/boatride/boatride.component.ts
+│   │   │   File size: 283 bytes
+│   ├── 2/8 Show Student DB - ngFor Directive
+│   │   5 files found!
+│   │   ├── 0/5 app/app.component.css
+│   │   │   File size: 319 bytes
+│   │   ├── 1/5 app/app.component.html
+│   │   │   File size: 696 bytes
+│   │   ├── 2/5 app/app.component.ts
+│   │   │   File size: 519 bytes
+│   │   ├── 3/5 app/app.module.ts
+│   │   │   File size: 313 bytes
+│   │   ├── 4/5 app/Student.model.ts
+│   │   │   File size: 319 bytes
+│   ├── 3/8 Remove Student - (component, ngFor)
+│   │   5 files found!
+│   │   ├── 0/5 app/app.component.css
+│   │   │   File size: 296 bytes
+│   │   ├── 1/5 app/app.component.html
+│   │   │   File size: 745 bytes
+│   │   ├── 2/5 app/app.component.ts
+│   │   │   File size: 648 bytes
+│   │   ├── 3/5 app/app.module.ts
+│   │   │   File size: 313 bytes
+│   │   ├── 4/5 app/Student.model.ts
+│   │   │   File size: 319 bytes
+│   ├── 4/8 Flight Reservation Form - (Dynamic dropdown using ngFor)
+│   │   4 files found!
+│   │   ├── 0/4 app/app.component.css
+│   │   │   File size: 808 bytes
+│   │   ├── 1/4 app/app.component.html
+│   │   │   File size: 1258 bytes
+│   │   ├── 2/4 app/app.component.ts
+│   │   │   File size: 650 bytes
+│   │   ├── 3/4 app/app.module.ts
+│   │   │   File size: 376 bytes
+│   ├── 5/8 Change Cases - Pipe
+│   │   5 files found!
+│   │   ├── 0/5 app/app.component.css
+│   │   │   File size: 345 bytes
+│   │   ├── 1/5 app/app.component.html
+│   │   │   File size: 281 bytes
+│   │   ├── 2/5 app/app.component.ts
+│   │   │   File size: 537 bytes
+│   │   ├── 3/5 app/app.module.ts
+│   │   │   File size: 313 bytes
+│   │   ├── 4/5 app/Student.model.ts
+│   │   │   File size: 283 bytes
+│   ├── 6/8 Rent A Home - Routing with Query param
+│   │   8 files found!
+│   │   ├── 0/8 app/app-routing.module.ts
+│   │   │   File size: 245 bytes
+│   │   ├── 1/8 app/app.component.css
+│   │   │   File size: 439 bytes
+│   │   ├── 2/8 app/app.component.html
+│   │   │   File size: 398 bytes
+│   │   ├── 3/8 app/app.component.ts
+│   │   │   File size: 215 bytes
+│   │   ├── 4/8 app/app.module.ts
+│   │   │   File size: 755 bytes
+│   │   ├── 5/8 app/home/home.component.css
+│   │   │   File size: 99 bytes
+│   │   ├── 6/8 app/home/home.component.html
+│   │   │   File size: 972 bytes
+│   │   ├── 7/8 app/home/home.component.ts
+│   │   │   File size: 612 bytes
+│   ├── 7/8 Book House - Cross component communication
+│   │   13 files found!
+│   │   ├── 0/13 app/app-routing.module.ts
+│   │   │   File size: 245 bytes
+│   │   ├── 1/13 app/app.component.css
+│   │   │   File size: 38 bytes
+│   │   ├── 2/13 app/app.component.html
+│   │   │   File size: 74 bytes
+│   │   ├── 3/13 app/app.component.ts
+│   │   │   File size: 232 bytes
+│   │   ├── 4/13 app/app.module.ts
+│   │   │   File size: 754 bytes
+│   │   ├── 5/13 app/book/book.component.css
+│   │   │   File size: 107 bytes
+│   │   ├── 6/13 app/book/book.component.html
+│   │   │   File size: 697 bytes
+│   │   ├── 7/13 app/book/book.component.ts
+│   │   │   File size: 708 bytes
+│   │   ├── 8/13 app/book.service.ts
+│   │   │   File size: 1344 bytes
+│   │   ├── 9/13 app/Book.ts
+│   │   │   File size: 193 bytes
+│   │   ├── 10/13 app/customer/customer.component.css
+│   │   │   File size: 92 bytes
+│   │   ├── 11/13 app/customer/customer.component.html
+│   │   │   File size: 628 bytes
+│   │   ├── 12/13 app/customer/customer.component.ts
+│   │   │   File size: 638 bytes
+├── 19/20 React
+│   19 hands-ons found!
+│   ├── 0/19 Stock securities-component
+│   │   3 files found!
+│   │   ├── 0/3 Welcome.js
+│   │   │   File size: 445 bytes
+│   │   ├── 1/3 Share.css
+│   │   │   File size: 239 bytes
+│   │   ├── 2/3 index.js
+│   │   │   File size: 301 bytes
+│   ├── 1/19 Display Current Date and Time
+│   │   3 files found!
+│   │   ├── 0/3 index.js
+│   │   │   File size: 220 bytes
+│   │   ├── 1/3 Register.js
+│   │   │   File size: 1051 bytes
+│   │   ├── 2/3 Styles.css
+│   │   │   File size: 239 bytes
+│   ├── 2/19 Share market-statistics
+│   │   3 files found!
+│   │   ├── 0/3 ShareMarket.js
+│   │   │   File size: 1401 bytes
+│   │   ├── 1/3 index.js
+│   │   │   File size: 309 bytes
+│   │   ├── 2/3 Styles.css
+│   │   │   File size: 311 bytes
+│   ├── 3/19 One Spot Furniture -component
+│   │   3 files found!
+│   │   ├── 0/3 Stock.js
+│   │   │   File size: 316 bytes
+│   │   ├── 1/3 Styles.css
+│   │   │   File size: 91 bytes
+│   │   ├── 2/3 index.js
+│   │   │   File size: 295 bytes
+│   ├── 4/19 Telecom-statistics
+│   │   3 files found!
+│   │   ├── 0/3 ShareMarket.js
+│   │   │   File size: 1365 bytes
+│   │   ├── 1/3 index.js
+│   │   │   File size: 308 bytes
+│   │   ├── 2/3 Styles.css
+│   │   │   File size: 317 bytes
+│   ├── 5/19 Apple Inc. Market - state
+│   │   3 files found!
+│   │   ├── 0/3 index.js
+│   │   │   File size: 245 bytes
+│   │   ├── 1/3 Market.js
+│   │   │   File size: 804 bytes
+│   │   ├── 2/3 Styles.css
+│   │   │   File size: 171 bytes
+│   ├── 6/19 Create Information Dashboard - With State And Props
+│   │   3 files found!
+│   │   ├── 0/3 index.js
+│   │   │   File size: 461 bytes
+│   │   ├── 1/3 Info.jsx
+│   │   │   File size: 2329 bytes
+│   │   ├── 2/3 style.css
+│   │   │   File size: 172 bytes
+│   ├── 7/19 Stock Securities-Props
+│   │   3 files found!
+│   │   ├── 0/3 Stock.js
+│   │   │   File size: 481 bytes
+│   │   ├── 1/3 index.js
+│   │   │   File size: 294 bytes
+│   │   ├── 2/3 stock.css
+│   │   │   File size: 252 bytes
+│   ├── 8/19 Stock Securities-double and array props
+│   │   3 files found!
+│   │   ├── 0/3 Stock.js
+│   │   │   File size: 613 bytes
+│   │   ├── 1/3 index.js
+│   │   │   File size: 519 bytes
+│   │   ├── 2/3 stock.css
+│   │   │   File size: 233 bytes
+│   ├── 9/19 FunTimeTicket - PropTypes
+│   │   3 files found!
+│   │   ├── 0/3 Display.js
+│   │   │   File size: 756 bytes
+│   │   ├── 1/3 index.js
+│   │   │   File size: 277 bytes
+│   │   ├── 2/3 Display.css
+│   │   │   File size: 275 bytes
+│   ├── 10/19 Quote For the Day - Event
+│   │   3 files found!
+│   │   ├── 0/3 index.js
+│   │   │   File size: 233 bytes
+│   │   ├── 1/3 Quote.js
+│   │   │   File size: 688 bytes
+│   │   ├── 2/3 styles.css
+│   │   │   File size: 248 bytes
+│   ├── 11/19 Course Details with Form_Final
+│   │   3 files found!
+│   │   ├── 0/3 index.js
+│   │   │   File size: 314 bytes
+│   │   ├── 1/3 CourseDetails.js
+│   │   │   File size: 934 bytes
+│   │   ├── 2/3 styles.css
+│   │   │   File size: 195 bytes
+│   ├── 12/19 Student Details using Map_Final
+│   │   3 files found!
+│   │   ├── 0/3 index.js
+│   │   │   File size: 322 bytes
+│   │   ├── 1/3 StudentDetails.js
+│   │   │   File size: 973 bytes
+│   │   ├── 2/3 styles.css
+│   │   │   File size: 194 bytes
+│   ├── 13/19 Sort Applicants List_Final
+│   │   3 files found!
+│   │   ├── 0/3 index.js
+│   │   │   File size: 291 bytes
+│   │   ├── 1/3 List.js
+│   │   │   File size: 1107 bytes
+│   │   ├── 2/3 styles.css
+│   │   │   File size: 257 bytes
+│   ├── 14/19 Search for Course availability
+│   │   4 files found!
+│   │   ├── 0/4 index.js
+│   │   │   File size: 236 bytes
+│   │   ├── 1/4 Search.js
+│   │   │   File size: 2268 bytes
+│   │   ├── 2/4 courseList.json
+│   │   │   File size: 89 bytes
+│   │   ├── 3/4 styles.css
+│   │   │   File size: 131 bytes
+│   ├── 15/19 Tech Valley- Styles
+│   │   2 files found!
+│   │   ├── 0/2 index.js
+│   │   │   File size: 229 bytes
+│   │   ├── 1/2 Forum.js
+│   │   │   File size: 710 bytes
+│   ├── 16/19 Stock Securities -Report- keys and styles-Final
+│   │   2 files found!
+│   │   ├── 0/2 index.js
+│   │   │   File size: 294 bytes
+│   │   ├── 1/2 Stocks.js
+│   │   │   File size: 1376 bytes
+│   ├── 17/19 Style table using External CSS -Final
+│   │   3 files found!
+│   │   ├── 0/3 index.js
+│   │   │   File size: 293 bytes
+│   │   ├── 1/3 Stocks.js
+│   │   │   File size: 1257 bytes
+│   │   ├── 2/3 stocks.css
+│   │   │   File size: 275 bytes
+│   ├── 18/19 Router- Final
+│   │   6 files found!
+│   │   ├── 0/6 index.js
+│   │   │   File size: 223 bytes
+│   │   ├── 1/6 App.js
+│   │   │   File size: 919 bytes
+│   │   ├── 2/6 Home.js
+│   │   │   File size: 234 bytes
+│   │   ├── 3/6 Contact.js
+│   │   │   File size: 243 bytes
+│   │   ├── 4/6 About.js
+│   │   │   File size: 239 bytes
+│   │   ├── 5/6 style.css
+│   │   │   File size: 167 bytes

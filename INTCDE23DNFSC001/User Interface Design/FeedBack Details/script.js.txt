@@ -1,0 +1,21 @@
+var feedbacks = [];
+
+function addFeedback(){
+ //Fill the required logic
+ const feedback = document.getElementById("feedback");
+ const display = document.getElementById("result");
+ 
+ feedbacks.push(feedback.value);
+ feedback.value = "";
+ display.innerHTML = "<h2>Feedback Details</h2>Successfully Added Feedback Details!";
+}
+
+function displayFeedback(){
+    //Fill the required logic
+    const display = document.getElementById("result");
+    var result = "<h2>Feedback Details</h2>";
+    for(var i=0;i<feedbacks.length;i++){
+        result += "Feedback " + (i+1) + "<br>" + feedbacks[i] + "<br>";
+    }
+    display.innerHTML = result;
+}

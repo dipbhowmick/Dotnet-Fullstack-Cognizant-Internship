@@ -1,0 +1,42 @@
+using System;
+
+public class Game {
+    public string Name { get; set; }
+    public int MaxNumPlayers { get; set; }
+    public override string ToString() {
+        return $"Maximum number of players for {Name} is {MaxNumPlayers}";
+    }
+}
+
+public class GameWithTimeLimit : Game {
+    public int TimeLimit { get; set; }
+    public override string ToString() {
+        Console.WriteLine(base.ToString());
+        return $"Time Limit for {base.Name} is {TimeLimit} minutes";
+    }
+}
+
+public class Program {
+    public static void Main(){
+        Game g1 = new Game();
+        GameWithTimeLimit g2 = new GameWithTimeLimit();
+        
+        Console.WriteLine("Enter a game");
+        g1.Name = Console.ReadLine();
+        
+        Console.WriteLine("Enter the maximum number of players");
+        g1.MaxNumPlayers = int.Parse(Console.ReadLine());
+        
+        Console.WriteLine("Enter a game that has time limit");
+        g2.Name = Console.ReadLine();
+        
+        Console.WriteLine("Enter the maximum number of players");
+        g2.MaxNumPlayers = int.Parse(Console.ReadLine());
+        
+        Console.WriteLine("Enter the time limit in minutes");
+        g2.TimeLimit = int.Parse(Console.ReadLine());
+        
+        Console.WriteLine(g1.ToString());
+        Console.WriteLine(g2.ToString());
+    }
+}

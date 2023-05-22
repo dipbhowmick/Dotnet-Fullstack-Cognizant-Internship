@@ -1,0 +1,69 @@
+
+/* 
+
+    Fill with appropriate and required javascript global variables  code here 
+
+*/
+
+var P, R, N;
+var EMI, Payment, Interest;
+
+function EstimateReducingInterestLoan()
+{
+	/* Fill with required javascript code to read input values from HTML Components  */
+
+    P = parseInt(document.getElementById("principalAmount").value);
+    R = parseInt(document.getElementById("interestRate").value) / 1200;
+    N = parseInt(document.getElementById("tenure").value);
+    
+    calculateEMI();
+    totalPayment();
+    totalInterest();
+    EstimateFixedInterestLoan();
+
+
+    
+}
+
+function EstimateFixedInterestLoan()
+{
+    Interest = P * N * R;
+    Payment = P + Interest;
+    EMI = Payment / N;
+    
+    /* Fill with required javascript code here  */
+    document.getElementById("tInterestFixed").innerHTML = Interest.toFixed(2); /*Assign total Interest value here*/
+    
+     /* Fill with required javascript code here  */
+    document.getElementById("tPaymentFixed").innerHTML = Payment.toFixed(2); /*Assign total payment value here*/
+    
+     /* Fill with required javascript code here  */
+    document.getElementById("EMIFixed").innerHTML = EMI.toFixed(2); /*Assign emi  value here*/
+    
+}
+
+function calculateEMI(){
+	
+    /* Fill with required javascript code here  */
+    EMI = P * R * (Math.pow(1 + R, N) / (Math.pow(1 + R, N) - 1));
+    
+    document.getElementById("EMI").innerHTML = EMI.toFixed(2);/*Assign emi value here*/
+}
+
+function totalPayment(){
+	
+	/* Fill with required javascript code here  */
+    Payment = EMI * N;
+    
+    document.getElementById("tPayment").innerHTML = Payment.toFixed(2); /*Assign total payment value here*/
+}
+
+function totalInterest(){
+	
+/* Fill with required javascript code here  */
+    Interest = Payment - P;
+    
+    document.getElementById("tInterest").innerHTML = Interest.toFixed(2); /*Assign total Interest value here*/
+}
+
+

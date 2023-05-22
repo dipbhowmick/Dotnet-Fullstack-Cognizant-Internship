@@ -1,0 +1,7 @@
+//WRITE YOUR jQUERY CODE HERE
+// $(window).on("load", function(){
+//     $("#msg").text("jQuery is loaded!!!");
+// });
+$(function(){
+    $("#msg").text("jQuery is loaded!!!");
+});

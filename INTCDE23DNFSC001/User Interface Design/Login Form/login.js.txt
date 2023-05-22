@@ -1,0 +1,11 @@
+//WRITE YOUR JQUERY CODE HERE
+$(function(){
+    $("#login,#signup").addClass("btn btn-info");
+    $("input[type='submit'],input[type='reset']").addClass("btn btn-primary");
+    $("#signup_div").hide();
+    $("#signup").on("click", function(){
+        $("#home").hide();
+        $("#signup_div").show();
+        return false;
+    });
+})

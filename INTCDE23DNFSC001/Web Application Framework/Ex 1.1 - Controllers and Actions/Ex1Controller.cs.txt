@@ -1,0 +1,20 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Mvc;
+
+namespace ASP_App1.Controllers               //DO NOT change the namespace name
+{
+    public class Ex1Controller : Controller  //DO NOT change the class name
+    {
+        List<String> breakingNews = new List<String>()      //DO NOT change this declaration and values
+        {
+            "PM visit brings business","10% slash in GST","Top Player announced retirement","India wins series"
+        };
+
+        public ActionResult NewsByChoice(int id) => base.Content(breakingNews[id - 1]);
+
+        public ActionResult AllNews() => base.Content(string.Join("\n", breakingNews));
+    }
+}

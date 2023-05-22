@@ -1,0 +1,3 @@
+alter table supplier
+add constraint check_contact check (len(contact) = 10)
+GO

@@ -1,0 +1,5 @@
+create procedure EmployeeCount @deptno char(3), @total_employees int output
+as begin
+     select @total_employees = count(*) from Employee where workdept = @deptno
+end
+go

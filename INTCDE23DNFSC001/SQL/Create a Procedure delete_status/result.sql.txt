@@ -1,0 +1,16 @@
+create proc delete_status @status_id integer
+as begin
+
+    begin try
+        -- if 0 = (select count(*) from claims where status_id = @status_id)
+            delete from status where id = @status_id
+        -- else
+        --     throw 50000, 'child records existing in claims table', 1;
+    end try
+    begin catch
+        insert into status_error_log (error_msg) values ('child records existing in claims table')
+        -- insert into status_error_log (error_msg) values (error_message())
+    end catch
+
+end
+go

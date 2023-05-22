@@ -1,0 +1,7 @@
+//WRITE YOUR jQUERY CODE HERE
+$(function(){
+    $("input[type='checkbox']").on("click", function(){
+        var n = $("input:checked").length;
+        $("#result").html( n + (n == 1 ? " box is" : " boxes are") + " checked");
+    });
+});

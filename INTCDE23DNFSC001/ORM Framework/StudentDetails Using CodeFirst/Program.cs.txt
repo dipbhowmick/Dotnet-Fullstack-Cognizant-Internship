@@ -1,0 +1,43 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace StudentManagement               //DO NOT Change the namespace name
+{
+    public class Program              //DO NOT Change the class name
+    {
+        public static void Main(string[] args)
+        {
+            //Implement the code here
+            Student s = new Student();
+            
+            Console.WriteLine("Enter Student Id");
+            s.StudentId = int.Parse(Console.ReadLine());
+            
+            Console.WriteLine("Enter Student Name");
+            s.StudentName = Console.ReadLine();
+            
+            Console.WriteLine("Enter Department");
+            s.Department = Console.ReadLine();
+            
+            Console.WriteLine("Enter Enrollment Date");
+            s.EnrolledDate = DateTime.Parse(Console.ReadLine());
+            
+            Console.WriteLine("Enter PhoneNumber");
+            s.PhoneNumber = Convert.ToInt64(Console.ReadLine());
+            
+            (new Program()).AddStudent(s);
+        }
+        
+        public void AddStudent(Student student){       //Do not change the method signature
+            
+            //Add the student details to database.
+            CollegeContext ctx = new CollegeContext();
+            ctx.Students.Add(student);
+            ctx.SaveChanges();
+            Console.WriteLine("Details Added Successfully");
+        }
+    }
+}

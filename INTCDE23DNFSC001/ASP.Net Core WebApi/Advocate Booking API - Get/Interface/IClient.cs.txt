@@ -1,0 +1,12 @@
+using GetWebApi.Models;
+using System.Collections.Generic;
+using System;
+
+namespace GetWebApi.Interface
+{
+    public interface IClient
+    {
+        List<Client> GetAllCases();
+        Client GetClientByCaseId(int id);
+    }
+}

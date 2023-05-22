@@ -1,0 +1,13 @@
+//WRITE YOUR jQUERY CODE HRE
+$(function(){
+    $("#btn-id").on("click", function(){
+        $.ajax({
+            url: "employee.json",
+            error: function(res){
+                console.log(res);
+                if(res.status == 404)
+                    $("#err-id").text("Error Message: Not found");
+            }
+        });
+    });
+});

@@ -1,0 +1,20 @@
+//THIS IS FOR REFERENCE ONLY. YOU NEED NOT MAKE ANY CHANGES HERE
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DemoAppCore
+{
+    public class Program
+    {
+        public static String FinalMessage()
+        {
+           return "The total is Rs.7600";
+                
+        }
+    }
+    
+    
+}

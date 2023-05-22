@@ -1,0 +1,33 @@
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import './Display.css';
+
+class Display extends Component {
+
+ //IMPLEMENT YOUR CODE   
+    
+    render(){
+        return (
+            <div>
+                <h1>Fun Time Ticket</h1>
+                <h3>Movie Name</h3>
+                {this.props.movieName}
+                <h3>Certificate</h3>
+                {this.props.certificate}
+                <h3>Released Year</h3>
+                {this.props.releasedYear}
+            </div>
+        );
+   }
+    
+}
+
+//IMPLEMENT PROPTYPES
+Display.propTypes = {
+    movieName: PropTypes.string.isRequired,
+    certificate: PropTypes.oneOf(['U', 'A']).isRequired,
+    releasedYear: PropTypes.number.isRequired
+};
+
+export default Display;
+

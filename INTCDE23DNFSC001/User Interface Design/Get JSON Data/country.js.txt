@@ -1,0 +1,17 @@
+//WRITE YOUR jQUERY CODE HERE
+$(function(){
+    $("#btn-id").on("click", function(){
+        
+        $.getJSON("https://reqres.in/api/users?page=2",function(res, sts){
+            console.log(sts);
+            console.log(res);
+            if(sts == "success"){
+                var html = "";
+                $.each(res.data, function(i, x){
+                    html += "<li>" + x.id + " -- " + x.email + "</li>";
+                });
+                $("#data-id").html("<ul>" + html + "</ul>");
+            }
+        });
+    });
+});

@@ -1,0 +1,40 @@
+using System;
+public class Calculator {
+    public int Addition(int a, int b){
+        return a+b;
+    }
+    public int Subtraction(int a, int b){
+        return a-b;
+    }
+    public int Multiplication(int a, int b){
+        return a*b;
+    }
+    public double Division(int a, int b, out double remainder){
+        remainder = a % b;
+        return a / b;
+    }
+}
+
+public class Program {
+    public static void Main(string[] args){
+        
+        Calculator cal = new Calculator();
+        
+        Console.WriteLine("Enter the operator");
+        string op = Console.ReadLine();
+        
+        Console.WriteLine("Enter the operands");
+        int a = int.Parse(Console.ReadLine());
+        int b = int.Parse(Console.ReadLine());
+        int ans = 0;
+        double rem = 0;
+
+        if(op == "+") ans = cal.Addition(a, b);
+        else if(op == "-") ans = cal.Subtraction(a, b);
+        else if(op == "*") ans = cal.Multiplication(a, b);
+        else if(op == "/") ans = (int)cal.Division(a, b, out rem);
+        
+        Console.WriteLine("Result of " + a + " " + op + " " + b + " is " + ans);
+        if(op == "/") Console.WriteLine("Remainder =" + rem);
+    }
+}

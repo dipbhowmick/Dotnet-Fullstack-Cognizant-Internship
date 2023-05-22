@@ -1,0 +1,11 @@
+function findPrimeNumber(number)
+{
+    //fill the code
+    if(number===1)
+        return "1 is neither a prime number nor a composite number";
+    for(var i = 2; i <= number / 2; i++)
+        if(number%i === 0)
+            return number + " is not a prime number";
+    return number + " is a prime number";
+}
+console.log(findPrimeNumber(11));
